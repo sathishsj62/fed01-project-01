@@ -1,0 +1,138 @@
+.Container {
+    width: 1200px;
+    margin: auto;
+}
+
+.header-flexbox {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header-text h1 a {
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #012970;
+    text-decoration: none;
+    font-family: "Nunito", sans-serif;
+
+}
+
+.header-text h1 {
+    margin-top: 20px;
+}
+
+.header-navigation {}
+
+.header-navigation ul {
+    list-style: none;
+    display: flex;
+    margin-top: 20px;
+}
+
+.header-navigation ul li {}
+
+.header-navigation ul li a {
+    font-size: 18px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0 10px 30px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+    white-space: nowrap;
+    transition: 0.3s;
+    color: #013289;
+    line-height: 1.9;
+    text-decoration: none;
+
+
+}
+
+.header-navigation ul li .btn-primary {
+    background: #4154f1;
+    padding: 8px 20px;
+    margin-left: 30px;
+    border-radius: 4px;
+    color: #fff;
+}
+
+.container {
+    width: 12oopx;
+    margin: auto;
+}
+
+.banner-wrapper {
+    display: flex;
+
+}
+
+.banner-text {
+    width: 50%;
+    margin-top: 20px;
+
+}
+
+.banner-text h2 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #012970;
+
+}
+
+.banner-text p {
+    color: #444444;
+    margin: 15px 0 0 0;
+    font-size: 26px;
+    margin-bottom: 33px;
+}
+
+.banner-text .btn-primary {
+    background: #4154f1;
+    padding: 8px 35px;
+    border-radius: 4px;
+    color: #fff;
+}
+.banner-image{
+    text-align: center;
+}
+.Container{
+    width: 12oopx;
+    margin: auto;
+}
+.About-wrapper{
+display: flex;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+.Right-text{
+
+}.Right-text h1{
+    font-size: 14px;
+    font-weight: 700;
+    color: #4154f1;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.Right-text h2{
+    font-size: 24px;
+    font-weight: 700;
+    color: #012970;
+    width: 50%;
+
+}
+.Right-text p{
+    margin: 15px 0 30px 0;
+    line-height: 24px;
+    color: #444444;
+    width: 50%;
+}
+.Right-text .btn-primary{
+    background: #4154f1;
+    padding: 8px 35px;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 26px;
+
+}
+   
