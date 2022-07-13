@@ -6,7 +6,6 @@
 .header-flexbox {
     display: flex;
     justify-content: space-between;
-
 }
 
 .header-text h1 a {
@@ -16,7 +15,7 @@
     color: #012970;
     text-decoration: none;
     font-family: "Nunito", sans-serif;
-
+    margin-left: 40px;
 }
 
 .header-text h1 {
@@ -53,13 +52,13 @@
     background: #4154f1;
     padding: 8px 20px;
     margin-left: 30px;
-    border-radius: 4px;
+    border-radius: 7px;
     color: #fff;
 }
-
-.container {
-    width: 12oopx;
-    margin: auto;
+.banner{
+   
+    margin-top: 70px;
+    margin-left: 32px;
 }
 
 .banner-wrapper {
@@ -68,71 +67,212 @@
 }
 
 .banner-text {
-    width: 50%;
+    width: 67%;
     margin-top: 20px;
-
+    
 }
 
 .banner-text h2 {
-    font-size: 48px;
+    display: inline-block;
+    font-size: 49px;
     font-weight: 700;
     color: #012970;
-
+    margin-left: 48px;
 }
 
 .banner-text p {
     color: #444444;
-    margin: 15px 0 0 0;
-    font-size: 26px;
+    margin: 28px 0 0 0;
+    font-size: 25px;
     margin-bottom: 33px;
+    margin-left: 45px;
 }
 
 .banner-text .btn-primary {
     background: #4154f1;
     padding: 8px 35px;
-    border-radius: 4px;
+    border-radius: 7px;
     color: #fff;
 }
-.banner-image{
-    text-align: center;
-}
-.Container{
-    width: 12oopx;
-    margin: auto;
-}
-.About-wrapper{
-display: flex;
-margin-top: 20px;
-margin-bottom: 20px;
-}
-.Right-text{
 
-}.Right-text h1{
+.banner-image {
+    text-align: center;
+    text-align: center;
+    padding-bottom: 20px;
+    max-width: 66%;
+    height: auto;
+}
+
+
+.About-wrapper {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.banner-image img {
+    width: 60%;
+
+}
+
+.Right-text h1 {
     font-size: 14px;
     font-weight: 700;
     color: #4154f1;
     text-transform: uppercase;
     margin-bottom: 10px;
+    margin-left: 30px;
+    margin-top: 30px;
 }
-.Right-text h2{
+
+.Right-text h2 {
     font-size: 24px;
     font-weight: 700;
     color: #012970;
-    width: 50%;
+    margin-left: 30px;
+
 
 }
-.Right-text p{
+
+.Right-text p {
     margin: 15px 0 30px 0;
     line-height: 24px;
     color: #444444;
-    width: 50%;
-}
-.Right-text .btn-primary{
-    background: #4154f1;
-    padding: 8px 35px;
-    border-radius: 4px;
-    color: #fff;
-    font-size: 26px;
+    margin-left: 30px;
+    padding-top: 10px;
+    font-size: 18px;
 
 }
-   
+
+.btn-primary {
+    background: #4154f1;
+    padding: 8px 35px;
+    border-radius: 7px;
+    color: #fff;
+    font-size: 26px;
+}
+
+.Right-text {
+    background-color: antiquewhite;
+    margin-top: 0px 0 0 34px;
+    font-weight: 500;
+    line-height: 1.2;
+    font-family: "Nunito", sans-serif;
+    height: 345px;
+    width: 750px;
+    margin-top: 43px;
+    margin-left: 71px;
+
+}
+
+.Left-image img {
+
+    width: 90%;
+}
+.headlne-wrapper{
+
+}
+.headline-header{
+    text-align: center;
+    padding-bottom: 40px;
+}
+.headline-header h1{
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    margin: 0;
+    color: #4154f1;
+    text-transform: uppercase;
+}
+.headline-header{
+    margin: 10px 0 0 0;
+    padding: 0;
+    font-size: 38px;
+    line-height: 42px;
+    font-weight: 700;
+    color: #012970;
+
+}
+.headline-banner-wrapper{
+    display: flex;
+  
+}
+.headline-banner-box{
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+
+}
+.banner-left-box{
+    padding: 30px;
+    box-shadow: 0px 0 5px rgb(1 41 112 / 8%);
+    text-align: center;
+    transition: 0.3s;
+    height: 100%;
+
+}
+.banner-middle-box{
+    padding: 30px;
+    box-shadow: 0px 0 5px rgb(1 41 112 / 8%);
+    text-align: center;
+    transition: 0.3s;
+    height: 100%;
+
+}
+.banner-right-box{
+    padding: 30px;
+    box-shadow: 0px 0 5px rgb(1 41 112 / 8%);
+    text-align: center;
+    transition: 0.3s;
+    height: 100%;
+
+}
+.left-image img{
+    width: 100%;
+    height: auto;
+
+}
+.middle-image{
+
+}
+.right-image{
+
+}
+.banner-left-box h1{
+    font-size: 24px;
+    color: #012970;
+    font-weight: 700;
+    margin-bottom: 18px;
+
+}
+.banner-middle-box h1{
+
+    font-size: 24px;
+    color: #012970;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+.banner-right-box h1{
+    font-size: 24px;
+    color: #012970;
+    font-weight: 700;
+    margin-bottom: 18px;
+    
+}.banner-left-box p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+
+}
+.banner-middle-box p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+
+}
+.banner-right-box p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+
+}
