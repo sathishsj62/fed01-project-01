@@ -3,7 +3,7 @@
     margin: auto;
 }
 
-.header-flexbox {
+/* .header-flexbox {
     display: flex;
     justify-content: space-between;
 }
@@ -513,7 +513,275 @@
     margin-top: 0;
     line-height: 1.2;
     width: 100%;
-    margin-left: 90px;
+    margin-left: 90px; */
+/* .footer{
+    background-color: #f6f9ff;
+    font-size: 14px;
+    padding: 50px ;
+
 }
+.footer-flexbox{
+    display: flex;
+    justify-content: space-evenly;
+    
+
+}
+.footer-1{
+    width: 33%;
+}
+.footer-1 a{
+    text-decoration: none;
+}
+.footer-1 a img{
+    max-height: 40px;
+    margin-right: 6px;  
+}
+.footer-1 a span{
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #012970;
+    font-family: sans-serif;
+    margin-top: 6px;
+}
+.footer-1 p{
+    margin-top: 15px;
+   font-size: 14px;
+   line-height: 24px;
+   font-family: sans-serif;
+}
+.footer-1 .links a{
+    /* padding: 5px; */
+    /* font-size: 20px; */
+    /* display: inline-block; */
+    /* margin-right: 10px;
+    transition: .3s;
+    color: rgba(1, 41, 112, 0.5);
+
+} */
+/* .footer-1 .links a:hover{
+    color: aqua;
+}
+.footer-2{
+
+}
+.footer-2 h4{
+    font-size: 16px;
+    font-weight: bold;
+    color: #012970;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 12px;
+
+}
+.footer-2 ul{
+    /* padding: 5px; */
+
+
+
+/* }
+.footer-2 ul li{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+
+}
+.footer-2 ul li a{
+    text-decoration: none;
+
+}
+.footer-2 ul li a:hover{
+    color: brown;
+
+}
+.footer-2 ul li i{
+    color: #d0d4fc;
+}
+.footer-3 h4{
+    font-size: 16px;
+    font-weight: bold;
+    color: #012970;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 12px;
+
+
+}
+.footer-3 p{
+    line-height: 26px;
+}
+.footer-3 p strong{
+    font-weight: bolder;
+ 
+}
+.footer-bottom{
+    background-color: #f6f9ff;
+}
+.footer-bottom-flexbox{
+    display: flex; */
+
+
+/* .footer{
+    background: black;
+}
+.footer-1{
+    padding: 30px;
+    
+}
+.footer-fkexbox{
+    width: 28%;
+    
+
+}
+.footer-1 h4{
+    color: aliceblue;
+    padding-bottom: 10px;
+    font-size: 20px;
+
+}
+.footer-1 p{
+    color: aliceblue;
+    /* width: 30%; */
+    /* padding-bottom: 10px;
+    line-height: 25px;
+    font-size: 15px;
+    
+}.footer form{
+    margin-top: 20px;
+    background: #fff;
+    padding: 6px 10px;
+    border-radius: 10px 10px 10px 10px;
+    position: relative;
+}
+.footer-1 form input[type=email] { 
+    padding: 4px 8px;
+    width: calc(100%-100px); 
+
+}
+.footer-1 form input[type=submit] {
+    background: #f03c02;
+    color: #fff;
+    position: absolute;
+    top: 8px;
+    right: -4px;
+    bottom: opx;
+    border: 0px;
+    font-size: 16px;
+    padding: 0px 11px;
+    border-radius:  0 4px 4px 0;
+    box-shadow: 0px 2px 15px rgb(0 0 0/ 10%); } */
+ 
+.footer{
+    background-color: rgb(219, 193, 193);
+    padding: 60px 0 30px 0;
+    
+}
+.footer-flexbox{
+    display: flex;
+    justify-content: space-around;
+
+}
+.footer-1{
+    /* width: 25%; */
+
+}
+.footer-1 h3{
+    font-size: 24px;
+    font-weight: 700;
+
+}
+.footer-1 p{
+    line-height: 25px;
+
+
+}
+.footer-1  strong{
+    line-height: 25px;
+
+}
+.footer-2 h3{
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    position: relative;
+
+}
+.footer-2 ul{
+    margin-top: 10px;
+   
+    
+
+
+}
+.footer-2 ul li{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    
+
+}
+.footer-2 ul li i{
+    
+
+}
+.footer-2 ul li i a{
+    text-decoration: none;
+    transition: 0 3s;
+    display:inline-block;
+    line-height: 1;
+}
+.footer-2 ul li i a:hover{
+    text-decoration: none;
+    color: #106eea;
+}
+.footer-3{
+    width: 20%;
+    text-decoration: none;
+
+}
+.footer-3 h3{
+    font-size: 16px;
+    font-weight: bold;
+    color: #444444;
+    position: relative;
+}
+
+.footer-3 p{
+    margin-top: 10px;
+    line-height: 25px;
+
+}
+
+ .footer-3 .link{ 
+    margin-top: 10px;
+   
+}
+
+.footer-3 .link a{
+    font-size: 18px;
+    display: inline-block;
+    background: #106eea;
+    color: white;
+    line-height: 1;
+    width: 36px;
+    height: 20px;
+    padding: 8px 0px;
+    margin-right: 4px;
+    border-radius: 4px;
+    text-align: center;
+    transition: 0.3s;
+    text-decoration: none;
+}
+.footer-3 .link a:hover{
+    background: #3b8af2;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+
+
+
 
 
