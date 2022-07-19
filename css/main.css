@@ -200,7 +200,7 @@
 .headline-banner-wrapper {
     display: flex;
     padding-left: 50px;
-    padding-right: 28px;
+    padding-right: 68px;
     margin-top: 40px;
 
 }
@@ -359,10 +359,10 @@
 .w-50 {
     background-color: #fff;
     box-shadow: 1px 1px 3px 0px #ccc;
-    width: 275px;
+    width: 234px;
     height: 90px;
     display: flex;
-    margin: 0 20px 0 0px;
+    margin-right: 52px;
 
 
 }
@@ -695,31 +695,82 @@
     color: #012970;
 
 }
-.card{
-    width: 28%;
-    box-shadow: 0px 0 30px rgb(1 41 112 / 8%);
-    height: 100%;
-    padding: 60px 30px;
-    text-align: center;
-    transition: 0.3s;
-    border-radius: 5px;
-   
-    
-
-}
- .services-box{
+.services-box{
     display: flex;
-    flex-wrap: wrap; 
-    
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 40px;
+    justify-content: center;
+    padding: 0px 103px;
+}
+.card-1{
+    width: 30.33%;
+   height: 100%;
+   padding-top: 35px;
+   border-bottom:#0000ff solid 3px ;
+   background: #f0f8ff;
+   margin-inline: 10px;
+   box-shadow: 0px 0 5px;
+   border-radius: 5px;
+
+
    
 }
-.card h3{
-    color: #444444;
-    font-weight: 700; 
-    font-size: 20px;
-
+.card-2{
+    width: 30.33%;
+    height: 100%;
+    padding-top: 35px;
+    border-bottom:solid 3px #ffa500;
+    background:  #f0f8ff;
+    margin-inline: 10px;
+    box-shadow: 0px 0 5px;
+    border-radius: 5px;
 }
-.services-box .card i{
+.card-3{
+    width: 30.33%;
+    height: 100%;
+    padding-top: 35px;
+    border-bottom:solid 3px #008000;
+    background:  #f0f8ff;
+    margin-inline: 10px;
+    box-shadow: 0px 0 5px;
+    border-radius: 5px;
+}
+.card-4{
+    width: 30.33%;
+    height: 100%;
+    padding-top: 35px;
+    border-bottom:solid 3px #ff0000;
+    background:  #f0f8ff;
+    margin-inline: 10px;
+    margin-top: 20px;
+    box-shadow: 0px 0 5px;
+    border-radius: 5px;
+}
+.card-5{
+    width: 30.33%;
+    height: 100%;
+    padding-top: 35px;
+    border-bottom:solid 3px #ee82ee;
+    background:  #f0f8ff;
+    margin-inline: 10px;
+    margin-top: 20px;
+    box-shadow: 0px 0 5px;
+    border-radius: 5px;
+}
+.card-6{
+    width: 30.33%;
+    height: 100%;
+    padding-top: 35px;
+    border-bottom:solid 3px #800080;
+    background: #f0f8ff;
+    margin-inline: 10px;
+    margin-top: 20px;
+    box-shadow: 0px 0 5px;
+    border-radius: 5px;
+}
+  .card-1 .icofont-chat  {
+    color: #4154f1;
     font-size: 36px;
     padding: 40px 20px;
     border-radius: 4px;
@@ -727,36 +778,349 @@
     margin-bottom: 25px;
     display: inline-block;
     line-height: 0;
-    transition: 0.3s; 
-    color: blue;
-    background: cadetblue;
-
+    background: #ecf3ff;
 }
-.caed p{
-    margin-top: 0;
-    margin-bottom: 1rem;
-}
-.card a{
-    color: #2db6fa;
-}
- .Read-More span{
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: 600;
-    font-size: 16px;
-    padding: 8px 20px;
-    color: violet;
-}
-.Read-More i{
+.card-2 .icofont-chat{
+    color:  #ffa500;
+    font-size: 36px;
+    padding: 40px 20px;
+    border-radius: 4px;
+    position: relative;
+    margin-bottom: 25px;
+    display: inline-block;
     line-height: 0;
-    margin-left: 5px;
-    font-size: 18px;
+    background: #ecf3ff;
 }
-.card-1{
-    border-bottom: 3px solid #2db6fa;
+.card-3 .icofont-chat{
+    color:  #008000;
+    font-size: 36px;
+    padding: 40px 20px;
+    border-radius: 4px;
+    position: relative;
+    margin-bottom: 25px;
+    display: inline-block;
+    line-height: 0;
+    background: #ecf3ff;
+}
+.card-4 .icofont-chat{
+    color:#e9222c;
+    background: #ecf3ff;
+    font-size: 36px;
+    padding: 40px 20px;
+    border-radius: 4px;
+    position: relative;
+    margin-bottom: 25px;
+    display: inline-block;
+    line-height: 0;
+}
+.card-5 .icofont-chat{
+    color:#ee82ee;
+    background: #ecf3ff;
+    font-size: 36px;
+    padding: 40px 20px;
+    border-radius: 4px;
+    position: relative;
+    margin-bottom: 25px;
+    display: inline-block;
+    line-height: 0;
+}
+.card-6 .icofont-chat{
+    color: #800080;
+    background: #ecf3ff;
+    font-size: 36px;
+    padding: 40px 20px;
+    border-radius: 4px;
+    position: relative;
+    margin-bottom: 25px;
+    display: inline-block;
+    line-height: 0;
+}
+.card-1 h3{
+    line-height: 1.2;
+    font-size: 1.75rem;
+    font-family: "Nunito", sans-serif;
+    color: #444444;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+.card-1 p{
+    line-height: 20px;
 }
 
+.card-1 span{
+    line-height: 5;
+    color: #4154f1;
+}
+.card-2 h3{
+    line-height: 1.2;
+    font-size: 1.75rem;
+    font-family: "Nunito", sans-serif;
+    color: #444444;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+.card-2 p{
+    line-height: 20px;
+}
+
+.card-2 span{
+    line-height: 5;
+    color: #ffa500;
+}
+.card-3 h3{
+    line-height: 1.2;
+    font-size: 1.75rem;
+    font-family: "Nunito", sans-serif;
+    color: #444444;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+.card-3 p{
+    line-height: 20px;
+}
+
+.card-3 span{
+    line-height: 5;
+    color: #008000;
+}
+.card-4 h3{
+    line-height: 1.2;
+    font-size: 1.75rem;
+    font-family: "Nunito", sans-serif;
+    color: #444444;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+.card-4 p{
+    line-height: 20px;
+}
+
+.card-4 span{
+    line-height: 5;
+    color: #e9222c;
+}
+.card-5 h3{
+    line-height: 1.2;
+    font-size: 1.75rem;
+    font-family: "Nunito", sans-serif;
+    color: #444444;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+.card-5 p{
+    line-height: 20px;
+}
+
+.card-5 span{
+    line-height: 5;
+    color: #ee82ee;
+}
+.card-6 h3{
+    line-height: 1.2;
+    font-size: 1.75rem;
+    font-family: "Nunito", sans-serif;
+    color: #444444;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+.card-6 p{
+    line-height: 20px;
+}
+
+.card-6 span{
+    line-height: 5;
+    color: #800080;
+}
+.Read-More{
+    text-decoration: none;
+
+}
+.card-1:hover{
+    color: #ecf3ff;
+    background-color: #4154f1;
+
+}
+.card-2:hover{
+    color: #ecf3ff;
+    background-color:#ffa500;
+
+}
+.card-3:hover{
+    color: #ecf3ff;
+    background-color: #008000;
+
+}
+.card-4:hover{
+    color: #ecf3ff;
+    background-color: #ff0000 ;
+
+}
+.card-5:hover{
+    color: #ecf3ff;
+    background-color: #ee82ee;
+
+}
+.card-6:hover{
+    color: #ecf3ff;
+    /* background-color:  #800080; */
+
+}
+
+.pricing-header{
+    text-align: center;
+    padding-bottom: 40px;
+}
+.pricing-header h2{
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    margin: 0;
+    color: #4154f1;
+    text-transform: uppercase;
+}
+.pricing-header p{
+    margin: 10px 0 0 0;
+    padding: 0;
+    font-size: 38px;
+    line-height: 42px;
+    font-weight: 700;
+    color: #012970;
+}
+.pricing-banner-flexbox{
+    display: flex;
+    justify-content: space-between;
+}
+.Pricing-1{
+    width: 20%;
+    padding: 40px 20px;
+    background: #fff;
+    text-align: center;
+    box-shadow: 0px 0 30px rgb(1 41 112 / 8%);
+    border-radius: 4px;
+    position: relative;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.Pricing-1 h3{
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #07d5c0;
+    font-family: "Nunito", sans-serif;
+}
+.Price-1{
+    font-size: 36px;
+    color: #444444;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+}
+sup{
+    font-size: 20px;
+    top: -15px;
+    left: 3px;
+    position: relative;
+    font-size: .75em; 
+    line-height: 0;
+    vertical-align: baseline;
+}
+.pricing-1-image{
+    padding: 30px 40px;
+
+}
+.Pricing-1 img{
+     max-width: 100%;
+     height: auto;
+     vertical-align: middle;
+}
+
+.Pricing-1 ul li{
+    list-style: none;
+    padding-bottom: 10px;
+
+}
+.Pricing-1 .botton{
+
+}
+.Pricing-2{
+    width: 20%;
+    padding: 40px 20px;
+    background: #fff;
+    text-align: center;
+    box-shadow: 0px 0 30px rgb(1 41 112 / 8%);
+    border-radius: 4px;
+    position: relative;
+    overflow: hidden;
+    transition: 0.3s;
+
+}
+.pricing-2 span .featured{
+    width: 200px;
+    position: absolute;
+    top: 18px;
+    right: -68px;
+    transform: rotate(45deg);
+    z-index: 1;
+    font-size: 14px;
+    padding: 1px 0 3px 0;
+    background: #4154f1;
+    color: #fff;
+
+
+}
+.Pricing-2{
+
+}
+.Pricing-2 ul li{
+    list-style: none;
+
+}
+.Pricing-3{
+    width: 20%;
+    padding: 40px 20px;
+    background: #fff;
+    text-align: center;
+    box-shadow: 0px 0 30px rgb(1 41 112 / 8%);
+    border-radius: 4px;
+    position: relative;
+    overflow: hidden;
+    transition: 0.3s;
+
+}
+.Pricing-1{
+
+}
+.Pricing-1{
+
+}
+.Pricing-1{
+
+}
+.Pricing-3 ul li{
+    list-style: none;
+
+}
+.Pricing-4{
+    width: 20%;
+    padding: 40px 20px;
+    background: #fff;
+    text-align: center;
+    box-shadow: 0px 0 30px rgb(1 41 112 / 8%);
+    border-radius: 4px;
+    position: relative;
+    overflow: hidden;
+    transition: 0.3s;
+
+}
+.Pricing-4 ul li{
+    list-style: none;
+
+}
+
+
+    
+
+ 
 
 
 
