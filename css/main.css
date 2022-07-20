@@ -383,18 +383,21 @@
 .client-4 h1 {
     margin: -8px 0 0 -6px;
 }
+
 .feature-wrapper {
     margin-top: 40px;
     text-align: center;
     margin-top: 80px;
 }
-.feature-wrapper h3{
+
+.feature-wrapper h3 {
     font-size: 13px;
     color: #4154f1;
     font-weight: 700;
-    
+
 }
-.feature-wrapper p{
+
+.feature-wrapper p {
     margin: 10px 0 0 0;
     padding: 0;
     font-size: 38px;
@@ -403,26 +406,28 @@
     color: #012970;
 }
 
-.feature-banner-wrapper{
+.feature-banner-wrapper {
     display: flex;
     margin-top: 60px;
-    background-color:#fff;
-    
+    background-color: #fff;
+
 }
-.feature-right-text{
+
+.feature-right-text {
     display: flex;
     margin: -72px -12px 0px;
     float: left;
     padding-right: 94px;
 }
 
-.text-left{
+.text-left {
     font-family: "Open Sans", sans-serif;
     color: #444444;
     position: relative;
     float: left;
     margin-top: 110px;
 }
+
 .text-left-1,
 .text-left-2,
 .text-left-3 {
@@ -430,8 +435,9 @@
     margin: 9px 0px 16px 0px;
     width: 231px;
     padding: 28px 20px;
-   
+
 }
+
 .text-left-1 p,
 .text-left-2 p,
 .text-left-3 p {
@@ -441,38 +447,42 @@
     font-weight: 700;
     margin: 0;
 }
-    
-.text-right{
+
+.text-right {
     padding: 10px;
     font-family: "Open Sans", sans-serif;
     color: #444444;
     margin-top: 110px;
-    
+
 }
+
 .text-right-1,
 .text-right-2,
-.text-right-3{
+.text-right-3 {
     background-color: ghostwhite;
     margin: 0px 0px 19px 0px;
     width: 237px;
     padding: 27px 21px;
-  
+
 }
+
 .text-right-1 p,
 .text-right-2 p,
-.text-right-3 p{
+.text-right-3 p {
     margin: 10px 6px 6px 10px;
     font-size: 18px;
     color: #012970;
     font-weight: 700;
     margin: 0;
- }
-.feature-left-image img{
+}
+
+.feature-left-image img {
     height: auto;
     width: 77%;
     margin-left: 90px;
 }
-.icofont-check{
+
+.icofont-check {
     line-height: 0;
     background: #ecf3ff;
     padding: 10px;
@@ -483,27 +493,31 @@
     float: left;
     background-color: aqua;
 }
-.feature-flexbox{
+
+.feature-flexbox {
     display: flex;
     margin-top: 60px;
 
 
 }
-.feature-1{
+
+.feature-1 {
     font-family: "Open Sans", sans-serif;
     color: #444444;
     margin-left: 90px;
-    
+
 }
-.feature-1 h3{
+
+.feature-1 h3 {
     font-size: 32px;
     font-weight: 700;
     color: #012970;
     font-family: "Nunito", sans-serif;
     line-height: 1.2;
-    
+
 }
-.feature-1 ul{
+
+.feature-1 ul {
     display: flex;
     border-bottom: 1px solid #eee;
     padding-bottom: 15px;
@@ -512,13 +526,15 @@
 
 
 }
-.feature-1 ul li a.active{
+
+.feature-1 ul li a.active {
     color: #4154f1;
-    border-bottom: 3px solid #4154f1; 
-   
+    border-bottom: 3px solid #4154f1;
+
 
 }
-.feature-1 ul li a{
+
+.feature-1 ul li a {
     background: none;
     text-transform: uppercase;
     font-size: 15px;
@@ -535,10 +551,11 @@
 
 .featureA-right-image {
     width: 85%;
-   
 
-} 
-.featureA-right-image img{
+
+}
+
+.featureA-right-image img {
     max-width: 100%;
     height: auto;
     margin-left: 240px;
@@ -550,15 +567,18 @@
     margin-top: 30px;
 
 }
-.feature-3{
+
+.feature-3 {
     width: 87%;
-    
+
 }
-.feature-2-flexbox{
+
+.feature-2-flexbox {
     margin-top: 32px;
 
 }
-.feature-3 p{
+
+.feature-3 p {
     margin-top: 10px;
     line-height: 20px;
     font-family: "Open Sans", sans-serif;
@@ -569,16 +589,18 @@
     margin-top: 10px;
 
 }
-.font-1 i{
+
+.font-1 i {
     float: left;
     font-size: 17px;
     margin-right: 8px;
     color: #4154f1;
 
-    
+
 
 }
-.font-1 h4{
+
+.font-1 h4 {
     font-size: 18px;
     font-weight: 700;
     color: #012970;
@@ -586,24 +608,28 @@
 
 
 }
+
 .font-2 {
     margin-top: 10px;
 
 }
-.font-2 i{
+
+.font-2 i {
     float: left;
     font-size: 17px;
     margin-right: 8px;
     color: #4154f1;
 
 }
-.font-2 h4{
+
+.font-2 h4 {
     font-size: 18px;
     font-weight: 700;
     color: #012970;
     font-family: "Nunito", sans-serif;
 }
-.feature-5 h3{
+
+.feature-5 h3 {
     color: #012970;
     font-weight: 700;
     font-size: 32px;
@@ -611,32 +637,37 @@
     text-align: center;
 
 }
-.feature-5-flexbox{
+
+.feature-5-flexbox {
     display: flex;
     justify-content: space-between;
-    
+
 }
-.feature-5-image{
+
+.feature-5-image {
     width: 20%;
     margin-left: 90px;
     margin-top: 20px;
-    
+
 
 }
-.feature-5-image img{
-    
+
+.feature-5-image img {
+
     width: 166%;
     height: auto;
-    margin-left: 40px;}
+    margin-left: 40px;
+}
 
-.group-1 i{
+.group-1 i {
     font-size: 44px;
     line-height: 68px;
     color: #0245bc;
     margin-right: 15px;
     float: left;
 }
-.group-1A h3{
+
+.group-1A h3 {
     margin-bottom: 10px;
     font-size: 20px;
     font-weight: 700;
@@ -644,40 +675,43 @@
     font-family: "Nunito", sans-serif;
     margin-top: 10px;
 }
-.group-1A p{
+
+.group-1A p {
     font-size: 15px;
     color: #848484;
     margin-bottom: 5px;
 }
-   
-.text1{
+
+.text1 {
     display: flex;
     flex-direction: column;
     width: 50%;
     margin-right: 100px;
 }
-.text2{
-        display: flex;
-        flex-direction: column;
-        width: 50%;
+
+.text2 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
 }
 
-.row{
+.row {
     display: flex;
     margin-left: 216px;
     line-height: 30px;
     width: 74%;
 }
 
-.right-text-flexbox{
+.right-text-flexbox {
     display: flex;
 }
 
-.services-header{
+.services-header {
     text-align: center;
     margin-top: 40px;
 }
-.services-header h2{
+
+.services-header h2 {
     font-size: 13px;
     letter-spacing: 1px;
     font-weight: 700;
@@ -686,7 +720,8 @@
     text-transform: uppercase;
 
 }
-.services-header p{
+
+.services-header p {
     margin: 10px 0 0 0;
     padding: 0;
     font-size: 38px;
@@ -695,7 +730,8 @@
     color: #012970;
 
 }
-.services-box{
+
+.services-box {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
@@ -703,73 +739,80 @@
     justify-content: center;
     padding: 0px 103px;
 }
-.card-1{
+
+.card-1 {
     width: 30.33%;
-   height: 100%;
-   padding-top: 35px;
-   border-bottom:#0000ff solid 3px ;
-   background: #f0f8ff;
-   margin-inline: 10px;
-   box-shadow: 0px 0 5px;
-   border-radius: 5px;
+    height: 100%;
+    padding-top: 35px;
+    border-bottom: #0000ff solid 3px;
+    background: #f0f8ff;
+    margin-inline: 10px;
+    box-shadow: 0px 0 5px;
+    border-radius: 5px;
 
 
-   
+
 }
-.card-2{
+
+.card-2 {
     width: 30.33%;
     height: 100%;
     padding-top: 35px;
-    border-bottom:solid 3px #ffa500;
-    background:  #f0f8ff;
+    border-bottom: solid 3px #ffa500;
+    background: #f0f8ff;
     margin-inline: 10px;
     box-shadow: 0px 0 5px;
     border-radius: 5px;
 }
-.card-3{
+
+.card-3 {
     width: 30.33%;
     height: 100%;
     padding-top: 35px;
-    border-bottom:solid 3px #008000;
-    background:  #f0f8ff;
+    border-bottom: solid 3px #008000;
+    background: #f0f8ff;
     margin-inline: 10px;
     box-shadow: 0px 0 5px;
     border-radius: 5px;
 }
-.card-4{
+
+.card-4 {
     width: 30.33%;
     height: 100%;
     padding-top: 35px;
-    border-bottom:solid 3px #ff0000;
-    background:  #f0f8ff;
-    margin-inline: 10px;
-    margin-top: 20px;
-    box-shadow: 0px 0 5px;
-    border-radius: 5px;
-}
-.card-5{
-    width: 30.33%;
-    height: 100%;
-    padding-top: 35px;
-    border-bottom:solid 3px #ee82ee;
-    background:  #f0f8ff;
-    margin-inline: 10px;
-    margin-top: 20px;
-    box-shadow: 0px 0 5px;
-    border-radius: 5px;
-}
-.card-6{
-    width: 30.33%;
-    height: 100%;
-    padding-top: 35px;
-    border-bottom:solid 3px #800080;
+    border-bottom: solid 3px #ff0000;
     background: #f0f8ff;
     margin-inline: 10px;
     margin-top: 20px;
     box-shadow: 0px 0 5px;
     border-radius: 5px;
 }
-  .card-1 .icofont-chat  {
+
+.card-5 {
+    width: 30.33%;
+    height: 100%;
+    padding-top: 35px;
+    border-bottom: solid 3px #ee82ee;
+    background: #f0f8ff;
+    margin-inline: 10px;
+    margin-top: 20px;
+    box-shadow: 0px 0 5px;
+    border-radius: 5px;
+}
+
+.card-6 {
+    width: 30.33%;
+    height: 100%;
+    padding-top: 35px;
+    border-bottom: solid 3px #800080;
+    background: #f0f8ff;
+    margin-inline: 10px;
+    margin-top: 20px;
+    box-shadow: 0px 0 5px;
+    border-radius: 5px;
+}
+
+.card-1 .icofont-chat {
     color: #4154f1;
     font-size: 36px;
     padding: 40px 20px;
@@ -780,8 +823,9 @@
     line-height: 0;
     background: #ecf3ff;
 }
-.card-2 .icofont-chat{
-    color:  #ffa500;
+
+.card-2 .icofont-chat {
+    color: #ffa500;
     font-size: 36px;
     padding: 40px 20px;
     border-radius: 4px;
@@ -791,8 +835,9 @@
     line-height: 0;
     background: #ecf3ff;
 }
-.card-3 .icofont-chat{
-    color:  #008000;
+
+.card-3 .icofont-chat {
+    color: #008000;
     font-size: 36px;
     padding: 40px 20px;
     border-radius: 4px;
@@ -802,8 +847,9 @@
     line-height: 0;
     background: #ecf3ff;
 }
-.card-4 .icofont-chat{
-    color:#e9222c;
+
+.card-4 .icofont-chat {
+    color: #e9222c;
     background: #ecf3ff;
     font-size: 36px;
     padding: 40px 20px;
@@ -813,8 +859,9 @@
     display: inline-block;
     line-height: 0;
 }
-.card-5 .icofont-chat{
-    color:#ee82ee;
+
+.card-5 .icofont-chat {
+    color: #ee82ee;
     background: #ecf3ff;
     font-size: 36px;
     padding: 40px 20px;
@@ -824,7 +871,8 @@
     display: inline-block;
     line-height: 0;
 }
-.card-6 .icofont-chat{
+
+.card-6 .icofont-chat {
     color: #800080;
     background: #ecf3ff;
     font-size: 36px;
@@ -835,7 +883,8 @@
     display: inline-block;
     line-height: 0;
 }
-.card-1 h3{
+
+.card-1 h3 {
     line-height: 1.2;
     font-size: 1.75rem;
     font-family: "Nunito", sans-serif;
@@ -843,15 +892,17 @@
     font-weight: 700;
     margin-bottom: 0.5rem;
 }
-.card-1 p{
+
+.card-1 p {
     line-height: 20px;
 }
 
-.card-1 span{
+.card-1 span {
     line-height: 5;
     color: #4154f1;
 }
-.card-2 h3{
+
+.card-2 h3 {
     line-height: 1.2;
     font-size: 1.75rem;
     font-family: "Nunito", sans-serif;
@@ -859,15 +910,17 @@
     font-weight: 700;
     margin-bottom: 0.5rem;
 }
-.card-2 p{
+
+.card-2 p {
     line-height: 20px;
 }
 
-.card-2 span{
+.card-2 span {
     line-height: 5;
     color: #ffa500;
 }
-.card-3 h3{
+
+.card-3 h3 {
     line-height: 1.2;
     font-size: 1.75rem;
     font-family: "Nunito", sans-serif;
@@ -875,15 +928,17 @@
     font-weight: 700;
     margin-bottom: 0.5rem;
 }
-.card-3 p{
+
+.card-3 p {
     line-height: 20px;
 }
 
-.card-3 span{
+.card-3 span {
     line-height: 5;
     color: #008000;
 }
-.card-4 h3{
+
+.card-4 h3 {
     line-height: 1.2;
     font-size: 1.75rem;
     font-family: "Nunito", sans-serif;
@@ -891,15 +946,17 @@
     font-weight: 700;
     margin-bottom: 0.5rem;
 }
-.card-4 p{
+
+.card-4 p {
     line-height: 20px;
 }
 
-.card-4 span{
+.card-4 span {
     line-height: 5;
     color: #e9222c;
 }
-.card-5 h3{
+
+.card-5 h3 {
     line-height: 1.2;
     font-size: 1.75rem;
     font-family: "Nunito", sans-serif;
@@ -907,15 +964,17 @@
     font-weight: 700;
     margin-bottom: 0.5rem;
 }
-.card-5 p{
+
+.card-5 p {
     line-height: 20px;
 }
 
-.card-5 span{
+.card-5 span {
     line-height: 5;
     color: #ee82ee;
 }
-.card-6 h3{
+
+.card-6 h3 {
     line-height: 1.2;
     font-size: 1.75rem;
     font-family: "Nunito", sans-serif;
@@ -923,54 +982,63 @@
     font-weight: 700;
     margin-bottom: 0.5rem;
 }
-.card-6 p{
+
+.card-6 p {
     line-height: 20px;
 }
 
-.card-6 span{
+.card-6 span {
     line-height: 5;
     color: #800080;
 }
-.Read-More{
+
+.Read-More {
     text-decoration: none;
 
 }
-.card-1:hover{
+
+.card-1:hover {
     color: #ecf3ff;
     background-color: #4154f1;
 
 }
-.card-2:hover{
+
+.card-2:hover {
     color: #ecf3ff;
-    background-color:#ffa500;
+    background-color: #ffa500;
 
 }
-.card-3:hover{
+
+.card-3:hover {
     color: #ecf3ff;
     background-color: #008000;
 
 }
-.card-4:hover{
+
+.card-4:hover {
     color: #ecf3ff;
-    background-color: #ff0000 ;
+    background-color: #ff0000;
 
 }
-.card-5:hover{
+
+.card-5:hover {
     color: #ecf3ff;
     background-color: #ee82ee;
 
 }
-.card-6:hover{
+
+.card-6:hover {
     color: #ecf3ff;
     /* background-color:  #800080; */
 
 }
 
-.pricing-header{
+.pricing-header {
     text-align: center;
     padding-bottom: 40px;
 }
-.pricing-header h2{
+
+.pricing-header h2 {
     font-size: 13px;
     letter-spacing: 1px;
     font-weight: 700;
@@ -978,7 +1046,8 @@
     color: #4154f1;
     text-transform: uppercase;
 }
-.pricing-header p{
+
+.pricing-header p {
     margin: 10px 0 0 0;
     padding: 0;
     font-size: 38px;
@@ -986,11 +1055,13 @@
     font-weight: 700;
     color: #012970;
 }
-.pricing-banner-flexbox{
+
+.pricing-banner-flexbox {
     display: flex;
     justify-content: space-between;
 }
-.Pricing-1{
+
+.Pricing-1 {
     width: 20%;
     padding: 40px 20px;
     background: #fff;
@@ -1002,47 +1073,64 @@
     transition: 0.3s;
 }
 
-.Pricing-1 h3{
+.Pricing-1 h3 {
     font-weight: 700;
     font-size: 18px;
     margin-bottom: 15px;
     color: #07d5c0;
     font-family: "Nunito", sans-serif;
 }
-.Price-1{
+
+.vivi {
     font-size: 36px;
     color: #444444;
     font-weight: 600;
     font-family: "Poppins", sans-serif;
+
 }
-sup{
+
+.vivi sup {
     font-size: 20px;
     top: -15px;
-    left: 3px;
+    left: -3px;
+
+}
+
+.vivi span {
+    color: #bababa;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: "Poppins", sans-serif;
+}
+
+sup {
     position: relative;
-    font-size: .75em; 
+    font-size: .75em;
     line-height: 0;
     vertical-align: baseline;
 }
-.pricing-1-image{
+
+
+.pricing-1-image {
     padding: 30px 40px;
 
 }
-.Pricing-1 img{
-     max-width: 100%;
-     height: auto;
-     vertical-align: middle;
+
+.Pricing-1 img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
 }
 
-.Pricing-1 ul li{
+.Pricing-1 ul li {
     list-style: none;
     padding-bottom: 10px;
 
 }
-.Pricing-1 .botton{
 
-}
-.Pricing-2{
+.Pricing-1 .botton {}
+
+.Pricing-2 {
     width: 20%;
     padding: 40px 20px;
     background: #fff;
@@ -1054,7 +1142,8 @@ sup{
     transition: 0.3s;
 
 }
-.pricing-2 span .featured{
+
+.Pricing-2 .feature {
     width: 200px;
     position: absolute;
     top: 18px;
@@ -1067,15 +1156,38 @@ sup{
     color: #fff;
 
 
-}
-.Pricing-2{
 
 }
-.Pricing-2 ul li{
+
+.Pricing-2 h3 {
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #65c600;
+    font-family: "Nunito", sans-serif;
+}
+
+
+
+.pricing-2-image {
+    padding: 30px 40px;
+
+}
+
+.Pricing-2 img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.Pricing-2 ul li {
+    padding-bottom: 10px;
     list-style: none;
-
 }
-.Pricing-3{
+
+.Pricing-2 {}
+
+.Pricing-3 {
     width: 20%;
     padding: 40px 20px;
     background: #fff;
@@ -1087,20 +1199,37 @@ sup{
     transition: 0.3s;
 
 }
-.Pricing-1{
+
+.Pricing-3 h3 {
+    font-weight: 700;
+    font-size: 18px;
+    color: #ff901c;
+    margin-bottom: 15px;
+    font-family: "Nunito", sans-serif;
 
 }
-.Pricing-1{
+
+.Pricing-3 {}
+
+.Pricing-3 {}
+
+.pricing-5-image {
+    padding: 30px 40px;
 
 }
-.Pricing-1{
 
+.pricing-5 img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
 }
-.Pricing-3 ul li{
+
+.Pricing-3 ul li {
+    padding-bottom: 10px;
     list-style: none;
-
 }
-.Pricing-4{
+
+.Pricing-4 {
     width: 20%;
     padding: 40px 20px;
     background: #fff;
@@ -1112,15 +1241,37 @@ sup{
     transition: 0.3s;
 
 }
-.Pricing-4 ul li{
-    list-style: none;
+
+.Pricing-4 h3 {
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #ff0071;
+    line-height: 1.2;
+}
+
+.pricing-4-image {
+    padding: 30px 40px;
 
 }
 
+.Pricing-4 img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
 
-    
+.Pricing-4 ul li {
+    padding-bottom: 10px;
+    list-style: none;
+}
 
- 
+
+
+
+
+
+
 
 
 
