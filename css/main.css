@@ -1059,6 +1059,7 @@
 .pricing-banner-flexbox {
     display: flex;
     justify-content: space-between;
+    padding: 0px 65px;
 }
 
 .Pricing-1 {
@@ -1081,7 +1082,7 @@
     font-family: "Nunito", sans-serif;
 }
 
-.vivi {
+.vivi-1 {
     font-size: 36px;
     color: #444444;
     font-weight: 600;
@@ -1089,14 +1090,14 @@
 
 }
 
-.vivi sup {
+.vivi-1 sup {
     font-size: 20px;
     top: -15px;
     left: -3px;
 
 }
 
-.vivi span {
+.vivi-1 span {
     color: #bababa;
     font-size: 16px;
     font-weight: 300;
@@ -1121,14 +1122,47 @@ sup {
     height: auto;
     vertical-align: middle;
 }
+.Pricing-1 ul{
+    padding: 0;
+    list-style: none;
+    color: #444444;
+    text-align: center;
+    line-height: 26px;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
 
 .Pricing-1 ul li {
     list-style: none;
     padding-bottom: 10px;
 
 }
+.Pricing-1 ul .na{
+    color: #ccc;
+    text-decoration: line-through;
+}
+.Pricing-1 a{
+    text-decoration: none;
+}
 
-.Pricing-1 .botton {}
+.Pricing-1 .botton {
+    display: inline-block;
+    padding: 8px 40px 10px 40px;
+    border-radius: 50px;
+    color: #4154f1;
+    transition: none;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Nunito", sans-serif;
+    font-weight: 600;
+    transition: 0.3s;
+    border: 1px solid #4154f1;
+}
+.Pricing-1 .botton:hover{
+    color: #ecf3ff;
+    background: #0000ff;
+}
+
 
 .Pricing-2 {
     width: 20%;
@@ -1166,6 +1200,32 @@ sup {
     color: #65c600;
     font-family: "Nunito", sans-serif;
 }
+.vivi-2{
+    font-size: 36px;
+    color: #444444;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+}
+
+.vivi-2 sub{
+    font-size: 20px;
+    top: -15px;
+    left: -3px;
+
+}
+sub{
+    position: relative;
+    font-size: .75em;
+    line-height: 0;
+    vertical-align: baseline;
+}
+
+.vivi-2 span {
+    color: #bababa;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: "Poppins", sans-serif;
+}
 
 
 
@@ -1179,13 +1239,46 @@ sup {
     height: auto;
     vertical-align: middle;
 }
+.Pricing-2 ul{
+    padding: 0;
+    list-style: none;
+    color: #444444;
+    text-align: center;
+    line-height: 26px;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
 
 .Pricing-2 ul li {
     padding-bottom: 10px;
     list-style: none;
 }
+.Pricing-2 ul .na{
+    color: #ccc;
+    text-decoration: line-through;
+}
 
-.Pricing-2 {}
+.Pricing-2 a{
+    text-decoration: none;
+}
+
+.Pricing-2 .botton {
+    display: inline-block;
+    padding: 8px 40px 10px 40px;
+    border-radius: 50px;
+    color: #4154f1;
+    transition: none;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Nunito", sans-serif;
+    font-weight: 600;
+    transition: 0.3s;
+    border: 1px solid #4154f1;
+}
+.Pricing-2 .botton:hover{
+    color: #ecf3ff;
+    background: #0000ff;
+}
 
 .Pricing-3 {
     width: 20%;
@@ -1208,25 +1301,77 @@ sup {
     font-family: "Nunito", sans-serif;
 
 }
+.vivi-3{
+    font-size: 36px;
+    color: #444444;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+}
 
-.Pricing-3 {}
+.vivi-3 sub{
+    font-size: 20px;
+    top: -15px;
+    left: -3px;
 
-.Pricing-3 {}
+}
+sub{
+    position: relative;
+    font-size: .75em;
+    line-height: 0;
+    vertical-align: baseline;
+}
 
-.pricing-5-image {
+.vivi-3 span {
+    color: #bababa;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: "Poppins", sans-serif;
+}
+
+.pricing-3-image {
     padding: 30px 40px;
 
 }
 
-.pricing-5 img{
+.pricing-3-image img {
     max-width: 100%;
     height: auto;
     vertical-align: middle;
+}
+.Pricing-3 ul{
+    padding: 0;
+    list-style: none;
+    color: #444444;
+    text-align: center;
+    line-height: 26px;
+    font-size: 16px;
+    margin-bottom: 25px;
 }
 
 .Pricing-3 ul li {
     padding-bottom: 10px;
     list-style: none;
+}
+.Pricing-3 a{
+    text-decoration: none;
+}
+
+.Pricing-3 .botton {
+    display: inline-block;
+    padding: 8px 40px 10px 40px;
+    border-radius: 50px;
+    color: #4154f1;
+    transition: none;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Nunito", sans-serif;
+    font-weight: 600;
+    transition: 0.3s;
+    border: 1px solid #4154f1;
+}
+.Pricing-3 .botton:hover{
+    color: #ecf3ff;
+    background: #0000ff;
 }
 
 .Pricing-4 {
@@ -1249,6 +1394,32 @@ sup {
     color: #ff0071;
     line-height: 1.2;
 }
+.vivi-4{
+    font-size: 36px;
+    color: #444444;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+}
+
+.vivi-4 sub{
+    font-size: 20px;
+    top: -15px;
+    left: -3px;
+
+}
+sub{
+    position: relative;
+    font-size: .75em;
+    line-height: 0;
+    vertical-align: baseline;
+}
+
+.vivi-4 span {
+    color: #bababa;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: "Poppins", sans-serif;
+}
 
 .pricing-4-image {
     padding: 30px 40px;
@@ -1260,10 +1431,40 @@ sup {
     height: auto;
     vertical-align: middle;
 }
+.Pricing-4 ul{
+    padding: 0;
+    list-style: none;
+    color: #444444;
+    text-align: center;
+    line-height: 26px;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
 
 .Pricing-4 ul li {
     padding-bottom: 10px;
     list-style: none;
+}
+.Pricing-4 a{
+    text-decoration: none;
+}
+
+.Pricing-4 .botton {
+    display: inline-block;
+    padding: 8px 40px 10px 40px;
+    border-radius: 50px;
+    color: #4154f1;
+    transition: none;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Nunito", sans-serif;
+    font-weight: 600;
+    transition: 0.3s;
+    border: 1px solid #4154f1;
+}
+.Pricing-4 .botton:hover{
+    color: #ecf3ff;
+    background: #0000ff;
 }
 
 
