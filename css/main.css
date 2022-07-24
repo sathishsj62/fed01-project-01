@@ -1466,6 +1466,29 @@ sub{
     color: #ecf3ff;
     background: #0000ff;
 }
+.Questions-header{
+    text-align: center;
+    margin-top: 70px;
+    padding-bottom: 40px;
+}
+.Questions-header h2{
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    margin: 0;
+    color: #4154f1;
+    text-transform: uppercase;
+
+}
+.Questions-header p{
+    margin: 10px 0 0 0;
+    padding: 0;
+    font-size: 38px;
+    line-height: 42px;
+    font-weight: 700;
+    color: #012970;
+
+}
 
 
 
