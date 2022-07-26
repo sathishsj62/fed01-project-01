@@ -739,26 +739,21 @@
     justify-content: center;
     padding: 0px 103px;
 }
-
 .card-1 {
     width: 30.33%;
     height: 100%;
     padding-top: 35px;
-    border-bottom: #0000ff solid 3px;
+    border-bottom:#2db6fa solid 3px;
     background: #f0f8ff;
     margin-inline: 10px;
     box-shadow: 0px 0 5px;
     border-radius: 5px;
-
-
-
 }
-
 .card-2 {
     width: 30.33%;
     height: 100%;
     padding-top: 35px;
-    border-bottom: solid 3px #ffa500;
+    border-bottom: solid 3px #f68c09;
     background: #f0f8ff;
     margin-inline: 10px;
     box-shadow: 0px 0 5px;
@@ -769,7 +764,7 @@
     width: 30.33%;
     height: 100%;
     padding-top: 35px;
-    border-bottom: solid 3px #008000;
+    border-bottom: solid 3px #08da4e ;
     background: #f0f8ff;
     margin-inline: 10px;
     box-shadow: 0px 0 5px;
@@ -804,7 +799,7 @@
     width: 30.33%;
     height: 100%;
     padding-top: 35px;
-    border-bottom: solid 3px #800080;
+    border-bottom: solid 3px  #f51f9c;
     background: #f0f8ff;
     margin-inline: 10px;
     margin-top: 20px;
@@ -813,7 +808,8 @@
 }
 
 .card-1 .icofont-chat {
-    color: #4154f1;
+    color: #2db6fa;
+    background: #dbf3fe;
     font-size: 36px;
     padding: 40px 20px;
     border-radius: 4px;
@@ -821,7 +817,7 @@
     margin-bottom: 25px;
     display: inline-block;
     line-height: 0;
-    background: #ecf3ff;
+
 }
 
 .card-2 .icofont-chat {
@@ -833,11 +829,11 @@
     margin-bottom: 25px;
     display: inline-block;
     line-height: 0;
-    background: #ecf3ff;
+    background:#fde3c4;
 }
 
 .card-3 .icofont-chat {
-    color: #008000;
+    color: #08da4e;
     font-size: 36px;
     padding: 40px 20px;
     border-radius: 4px;
@@ -845,12 +841,12 @@
     margin-bottom: 25px;
     display: inline-block;
     line-height: 0;
-    background: #ecf3ff;
+    background:#cffddf;
 }
 
 .card-4 .icofont-chat {
-    color: #e9222c;
-    background: #ecf3ff;
+    color:#e9222c;
+    background: #fef7f8;
     font-size: 36px;
     padding: 40px 20px;
     border-radius: 4px;
@@ -861,8 +857,8 @@
 }
 
 .card-5 .icofont-chat {
-    color: #ee82ee;
-    background: #ecf3ff;
+    color: #b50edf;
+    background: #f8e4fd;
     font-size: 36px;
     padding: 40px 20px;
     border-radius: 4px;
@@ -873,8 +869,8 @@
 }
 
 .card-6 .icofont-chat {
-    color: #800080;
-    background: #ecf3ff;
+    color: #f51f9c;
+    background: #feecf7;
     font-size: 36px;
     padding: 40px 20px;
     border-radius: 4px;
@@ -938,6 +934,7 @@
     color: #008000;
 }
 
+
 .card-4 h3 {
     line-height: 1.2;
     font-size: 1.75rem;
@@ -989,29 +986,30 @@
 
 .card-6 span {
     line-height: 5;
-    color: #800080;
+    color:  #f51f9c;
+   
 }
 
 .Read-More {
-    text-decoration: none;
+    text-decoration: none; 
 
 }
 
 .card-1:hover {
     color: #ecf3ff;
-    background-color: #4154f1;
+    background-color: #2db6fa;
 
 }
 
 .card-2:hover {
     color: #ecf3ff;
-    background-color: #ffa500;
+    background-color: #f68c09;
 
 }
 
 .card-3:hover {
     color: #ecf3ff;
-    background-color: #008000;
+    background-color: #08da4e;
 
 }
 
@@ -1029,8 +1027,11 @@
 
 .card-6:hover {
     color: #ecf3ff;
-    /* background-color:  #800080; */
+    background-color:   #f51f9c;
 
+}
+.span:hover{
+    color: white;
 }
 
 .pricing-header {
