@@ -1578,55 +1578,78 @@ sub{
     background: white;
 }
 .portfolio-team{
-    position: relative;
-    height: 872.97px;
+   
+    
 }
-.portfolio-flex{
-    position: absolute;
-    left: 0px;
-    top: 0px;
+.portfolio-A{
+     display: flex; 
+     justify-content: center;
+     margin-left: 40px;
+
 }
-.portfolio-card-1 {
-    width: 33.3%;
+
+
+.portfolio-card-1{
+    width: 29%;
+    margin-left: 20px;
     transition: 0.3s;
     position: relative;
     overflow: hidden;
     z-index: 1;
     background: rgba(255, 255, 255, 0.75);
+    
 }
 .portfolio-card-1 img{
-    max-width: 100%;
+    width: 100%;
+    height: auto;
+    transition: 1s;
 }
-.portfolio-info{
-    opacity: 1;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    text-align: center;
-    z-index: 3;
-    transition: all ease-in-out 0.3s;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 
+.portfolio-like{
+    
 }
-.portfolio-info h4{
-    font-size: 20px;
-    color: #012970;
-    font-weight: 700;
-    font-family: "Nunito", sans-serif; 
+
+.portfolio-like a i{
+    font-size: 24px;
+    line-height: 0;
 }
-.portfolio-info p{
-    color: #012970;
-    font-weight: 600;
-    font-size: 14px;
-    text-transform: uppercase;
-    padding: 0;
-    margin: 0;
+.portfolio-B{
+    display: flex; 
+    justify-content: center;
+    margin-left: 40px;
 }
+
+.portfolio-card-2{
+    width: 29%;
+    margin-left: 20px;
+}
+.portfolio-card-2 img{
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
+
+.portfolio-C{
+    display: flex; 
+    justify-content: center;
+    margin-left: 40px;
+}
+
+.portfolio-card-3{
+    width: 29%;
+    margin-left: 20px;
+}
+.portfolio-card-3 img{
+    width: 100%;
+    height: auto;
+}
+
+
 
 
 
