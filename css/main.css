@@ -1685,10 +1685,10 @@ sub{
 .Testimonials-items{
     box-sizing: content-box;
     padding: 30px;
-    margin: 40px 30px;
+    margin: 40px 40px;
     box-shadow: 0px 0 20px rgb(1 41 112 / 10%);
     background: #fff;
-    min-height: 320px;
+    min-height: 285px;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -1702,6 +1702,390 @@ sub{
 
 
 }
+.satars{
+    margin-bottom: 15px;
+
+}
+.satars i{
+    color: #ffc107;
+    margin: 0 1px;
+}
+.Testimonials-items P{
+    font-style: italic;
+    margin: 0 auto 15px auto;
+}
+.profile{
+    margin-top: auto!important;
+}
+.profile img{
+    width: 90px;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    margin: 0 auto;
+}
+.profile h3{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0 5px 0;
+    color: #111;
+}
+.profile h4{
+    font-size: 14px;
+    color: #999;
+    margin: 0;
+}
+.team{
+    background: #fff;
+    padding: 60px 0;
+
+}
+.team-header{
+    text-align: center;
+    padding-bottom: 40px;
+}
+.team-header h2{
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    margin: 0;
+    color: #4154f1;
+    text-transform: uppercase;
+
+}
+.team-header p{
+    margin: 10px 0 0 0;
+    padding: 0;
+    font-size: 38px;
+    line-height: 42px;
+    font-weight: 700;
+    color: #012970;
+
+}
+.team-banner{
+    display: flex;
+    margin: 80px;
+    --bs-gutter-y: 1.5rem;
+    --bs-gutter-y: 0;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+}
+.team-1{
+    width: 25%;
+}
+.team-member-1{
+    overflow: hidden;
+    text-align: center;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0px 0 30px rgb(1 41 112 / 8%);
+    transition: 0.3s;
+}
+.team-member-1 .member-image{
+    position: relative;
+    overflow: hidden;
+}
+
+.team-member-1 .member-image img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+.team-member-1 .social-media{
+    position: absolute;
+    right: -100%;
+    top: 30px;
+    opacity: 0;
+    border-radius: 4px;
+    transition: 0.5s;
+    background: rgba(255, 255, 255, 0.3);
+    z-index: 2;
+}
+.team-member-1 .social-media a{
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+.team-member-1 .social-media a i{
+    font-family: 'IcoFont' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    line-height: 1;
+    -webkit-font-feature-settings: "liga";
+    -webkit-font-smoothing: antialiased;
+}
+.team-member-1 .member-info{
+    padding: 10px 15px 20px 15px
+
+}
+.team-member-1 .member-info h4{
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: #012970;
+
+}
+.team-member-1 .member-info span{
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    color: #aaaaaa;
+
+}
+.team-member-1 .member-info p{
+    font-style: italic;
+    font-size: 14px;
+    padding-top: 15px;
+    line-height: 26px;
+    color: #5e5e5e;
+
+}
+.team-2{
+    width: 25%;
+}
+.team-member-2{
+    overflow: hidden;
+    text-align: center;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0px 0 30px rgb(1 41 112 / 8%);
+    transition: 0.3s;
+}
+
+.team-member-2 .member-image img{
+    max-width: 100%;
+    height: auto;
+}
+.team-member-2 .member-image img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+.team-member-2 .social-media{
+    position: absolute;
+    right: -100%;
+    top: 30px;
+    opacity: 0;
+    border-radius: 4px;
+    transition: 0.5s;
+    background: rgba(255, 255, 255, 0.3);
+    z-index: 2;
+}
+.team-member-2 .social-media a{
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+.team-member-2 .social-media a i{
+    font-family: 'IcoFont' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    line-height: 1;
+    -webkit-font-feature-settings: "liga";
+    -webkit-font-smoothing: antialiased;
+}
+.team-member-2 .member-info{
+    padding: 10px 15px 20px 15px
+
+}
+.team-member-2 .member-info h4{
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: #012970;
+
+}
+.team-member-2 .member-info span{
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    color: #aaaaaa;
+
+}
+.team-member-2 .member-info p{
+    font-style: italic;
+    font-size: 14px;
+    padding-top: 15px;
+    line-height: 26px;
+    color: #5e5e5e;
+
+}
+.team-3{
+    width: 25%;
+}
+.team-member-3{
+    overflow: hidden;
+    text-align: center;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0px 0 30px rgb(1 41 112 / 8%);
+    transition: 0.3s;
+}
+
+.team-member-3 .member-image img{
+    max-width: 100%;
+    height: auto;
+}
+.team-member-3 .member-image img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+.team-member-3 .social-media{
+    position: absolute;
+    right: -100%;
+    top: 30px;
+    opacity: 0;
+    border-radius: 4px;
+    transition: 0.5s;
+    background: rgba(255, 255, 255, 0.3);
+    z-index: 2;
+}
+.team-member-3 .social-media a{
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+.team-member-3 .social-media a i{
+    font-family: 'IcoFont' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    line-height: 1;
+    -webkit-font-feature-settings: "liga";
+    -webkit-font-smoothing: antialiased;
+}
+.team-member-3 .member-info{
+    padding: 10px 15px 20px 15px
+
+}
+.team-member-3 .member-info h4{
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: #012970;
+
+}
+.team-member-3 .member-info span{
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    color: #aaaaaa;
+
+}
+.team-member-3 .member-info p{
+    font-style: italic;
+    font-size: 14px;
+    padding-top: 15px;
+    line-height: 26px;
+    color: #5e5e5e;
+
+}
+.team-4{
+    width: 25%;
+}
+.team-member-4{
+    overflow: hidden;
+    text-align: center;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0px 0 30px rgb(1 41 112 / 8%);
+    transition: 0.3s;
+}
+
+.team-member-4 .member-image img{
+    max-width: 100%;
+    height: auto;
+}
+.team-member-4 .member-image img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+.team-member-4 .social-media{
+    position: absolute;
+    right: -100%;
+    top: 30px;
+    opacity: 0;
+    border-radius: 4px;
+    transition: 0.5s;
+    background: rgba(255, 255, 255, 0.3);
+    z-index: 2;
+}
+.team-member-4 .social-media a{
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+.team-member-4 .social-media a i{
+    font-family: 'IcoFont' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    line-height: 1;
+    -webkit-font-feature-settings: "liga";
+    -webkit-font-smoothing: antialiased;
+}
+.team-member-4 .member-info{
+    padding: 10px 15px 20px 15px
+
+}
+.team-member-4 .member-info h4{
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: #012970;
+
+}
+.team-member-4 .member-info span{
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    color: #aaaaaa;
+
+}
+.team-member-4 .member-info p{
+    font-style: italic;
+    font-size: 14px;
+    padding-top: 15px;
+    line-height: 26px;
+    color: #5e5e5e;
+
+}
+
+
+
 
 
 
