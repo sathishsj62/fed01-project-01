@@ -739,16 +739,18 @@
     justify-content: center;
     padding: 0px 103px;
 }
+
 .card-1 {
     width: 30.33%;
     height: 100%;
     padding-top: 35px;
-    border-bottom:#2db6fa solid 3px;
+    border-bottom: #2db6fa solid 3px;
     background: #f0f8ff;
     margin-inline: 10px;
     box-shadow: 0px 0 5px;
     border-radius: 5px;
 }
+
 .card-2 {
     width: 30.33%;
     height: 100%;
@@ -764,7 +766,7 @@
     width: 30.33%;
     height: 100%;
     padding-top: 35px;
-    border-bottom: solid 3px #08da4e ;
+    border-bottom: solid 3px #08da4e;
     background: #f0f8ff;
     margin-inline: 10px;
     box-shadow: 0px 0 5px;
@@ -799,7 +801,7 @@
     width: 30.33%;
     height: 100%;
     padding-top: 35px;
-    border-bottom: solid 3px  #f51f9c;
+    border-bottom: solid 3px #f51f9c;
     background: #f0f8ff;
     margin-inline: 10px;
     margin-top: 20px;
@@ -829,7 +831,7 @@
     margin-bottom: 25px;
     display: inline-block;
     line-height: 0;
-    background:#fde3c4;
+    background: #fde3c4;
 }
 
 .card-3 .icofont-chat {
@@ -841,11 +843,11 @@
     margin-bottom: 25px;
     display: inline-block;
     line-height: 0;
-    background:#cffddf;
+    background: #cffddf;
 }
 
 .card-4 .icofont-chat {
-    color:#e9222c;
+    color: #e9222c;
     background: #fef7f8;
     font-size: 36px;
     padding: 40px 20px;
@@ -986,12 +988,12 @@
 
 .card-6 span {
     line-height: 5;
-    color:  #f51f9c;
-   
+    color: #f51f9c;
+
 }
 
 .Read-More {
-    text-decoration: none; 
+    text-decoration: none;
 
 }
 
@@ -1027,10 +1029,11 @@
 
 .card-6:hover {
     color: #ecf3ff;
-    background-color:   #f51f9c;
+    background-color: #f51f9c;
 
 }
-.span:hover{
+
+.span:hover {
     color: white;
 }
 
@@ -1123,7 +1126,8 @@ sup {
     height: auto;
     vertical-align: middle;
 }
-.Pricing-1 ul{
+
+.Pricing-1 ul {
     padding: 0;
     list-style: none;
     color: #444444;
@@ -1138,11 +1142,13 @@ sup {
     padding-bottom: 10px;
 
 }
-.Pricing-1 ul .na{
+
+.Pricing-1 ul .na {
     color: #ccc;
     text-decoration: line-through;
 }
-.Pricing-1 a{
+
+.Pricing-1 a {
     text-decoration: none;
 }
 
@@ -1159,7 +1165,8 @@ sup {
     transition: 0.3s;
     border: 1px solid #4154f1;
 }
-.Pricing-1 .botton:hover{
+
+.Pricing-1 .botton:hover {
     color: #ecf3ff;
     background: #0000ff;
 }
@@ -1201,20 +1208,22 @@ sup {
     color: #65c600;
     font-family: "Nunito", sans-serif;
 }
-.vivi-2{
+
+.vivi-2 {
     font-size: 36px;
     color: #444444;
     font-weight: 600;
     font-family: "Poppins", sans-serif;
 }
 
-.vivi-2 sub{
+.vivi-2 sub {
     font-size: 20px;
     top: -15px;
     left: -3px;
 
 }
-sub{
+
+sub {
     position: relative;
     font-size: .75em;
     line-height: 0;
@@ -1240,7 +1249,8 @@ sub{
     height: auto;
     vertical-align: middle;
 }
-.Pricing-2 ul{
+
+.Pricing-2 ul {
     padding: 0;
     list-style: none;
     color: #444444;
@@ -1254,12 +1264,13 @@ sub{
     padding-bottom: 10px;
     list-style: none;
 }
-.Pricing-2 ul .na{
+
+.Pricing-2 ul .na {
     color: #ccc;
     text-decoration: line-through;
 }
 
-.Pricing-2 a{
+.Pricing-2 a {
     text-decoration: none;
 }
 
@@ -1276,7 +1287,8 @@ sub{
     transition: 0.3s;
     border: 1px solid #4154f1;
 }
-.Pricing-2 .botton:hover{
+
+.Pricing-2 .botton:hover {
     color: #ecf3ff;
     background: #0000ff;
 }
@@ -1302,20 +1314,22 @@ sub{
     font-family: "Nunito", sans-serif;
 
 }
-.vivi-3{
+
+.vivi-3 {
     font-size: 36px;
     color: #444444;
     font-weight: 600;
     font-family: "Poppins", sans-serif;
 }
 
-.vivi-3 sub{
+.vivi-3 sub {
     font-size: 20px;
     top: -15px;
     left: -3px;
 
 }
-sub{
+
+sub {
     position: relative;
     font-size: .75em;
     line-height: 0;
@@ -1339,7 +1353,8 @@ sub{
     height: auto;
     vertical-align: middle;
 }
-.Pricing-3 ul{
+
+.Pricing-3 ul {
     padding: 0;
     list-style: none;
     color: #444444;
@@ -1353,7 +1368,8 @@ sub{
     padding-bottom: 10px;
     list-style: none;
 }
-.Pricing-3 a{
+
+.Pricing-3 a {
     text-decoration: none;
 }
 
@@ -1370,7 +1386,8 @@ sub{
     transition: 0.3s;
     border: 1px solid #4154f1;
 }
-.Pricing-3 .botton:hover{
+
+.Pricing-3 .botton:hover {
     color: #ecf3ff;
     background: #0000ff;
 }
@@ -1395,20 +1412,22 @@ sub{
     color: #ff0071;
     line-height: 1.2;
 }
-.vivi-4{
+
+.vivi-4 {
     font-size: 36px;
     color: #444444;
     font-weight: 600;
     font-family: "Poppins", sans-serif;
 }
 
-.vivi-4 sub{
+.vivi-4 sub {
     font-size: 20px;
     top: -15px;
     left: -3px;
 
 }
-sub{
+
+sub {
     position: relative;
     font-size: .75em;
     line-height: 0;
@@ -1432,7 +1451,8 @@ sub{
     height: auto;
     vertical-align: middle;
 }
-.Pricing-4 ul{
+
+.Pricing-4 ul {
     padding: 0;
     list-style: none;
     color: #444444;
@@ -1446,7 +1466,8 @@ sub{
     padding-bottom: 10px;
     list-style: none;
 }
-.Pricing-4 a{
+
+.Pricing-4 a {
     text-decoration: none;
 }
 
@@ -1463,16 +1484,19 @@ sub{
     transition: 0.3s;
     border: 1px solid #4154f1;
 }
-.Pricing-4 .botton:hover{
+
+.Pricing-4 .botton:hover {
     color: #ecf3ff;
     background: #0000ff;
 }
-.Questions-header{
+
+.Questions-header {
     text-align: center;
     margin-top: 70px;
     padding-bottom: 40px;
 }
-.Questions-header h2{
+
+.Questions-header h2 {
     font-size: 13px;
     letter-spacing: 1px;
     font-weight: 700;
@@ -1481,7 +1505,8 @@ sub{
     text-transform: uppercase;
 
 }
-.Questions-header p{
+
+.Questions-header p {
     margin: 10px 0 0 0;
     padding: 0;
     font-size: 38px;
@@ -1490,10 +1515,10 @@ sub{
     color: #012970;
 
 }
-.Questions-content{
-    
-}
-.Question-flexbox{
+
+.Questions-content {}
+
+.Question-flexbox {
     --bs-gutter-x: 1.5rem;
     --bs-gutter-y: 0;
     display: flex;
@@ -1502,24 +1527,27 @@ sub{
     margin-right: calc(-.5 * var(--bs-gutter-x));
     margin-left: calc(-.5 * var(--bs-gutter-x));
 }
-.Question-items{
-   
+
+.Question-items {
+
     width: 50%;
 
 }
-.portfolio{
+
+.portfolio {
     padding: 60px 0;
     overflow: hidden;
 }
 
-.portfolio-header{
+.portfolio-header {
     text-align: center;
     padding-bottom: 40px;
     font-family: "Open Sans", sans-serif;
     color: #444444;
 
 }
-.portfolio-header h2{
+
+.portfolio-header h2 {
     font-size: 13px;
     letter-spacing: 1px;
     font-weight: 700;
@@ -1527,7 +1555,8 @@ sub{
     color: #4154f1;
     text-transform: uppercase;
 }
-.portfolio-header p{
+
+.portfolio-header p {
     margin: 10px 0 0 0;
     padding: 0;
     font-size: 38px;
@@ -1535,22 +1564,25 @@ sub{
     font-weight: 700;
     color: #012970;
 }
-.filter-items{
+
+.filter-items {
     transition-delay: .1s;
     opacity: 1;
     transform: translateZ(0);
     transition-timing-function: ease-in-out;
     transition-duration: 1s;
-    transition-property: opacity,transform;
+    transition-property: opacity, transform;
 
 }
-.filter{
-   
-    display: flex!important;
-    justify-content: center!important;
+
+.filter {
+
+    display: flex !important;
+    justify-content: center !important;
 
 }
-.filter-1{
+
+.filter-1 {
     margin: 0 auto 25px auto;
     list-style: none;
     text-align: center;
@@ -1558,12 +1590,14 @@ sub{
     border-radius: 50px;
     padding: 2px 15px;
 }
+
 .filter.filter-1 li.filter-active {
     color: #4154f1;
     border-color: #4154f1;
 
 }
-.filter .filter-1 li{
+
+.filter .filter-1 li {
     cursor: pointer;
     display: inline-block;
     padding: 8px 20px 10px 20px;
@@ -1577,19 +1611,18 @@ sub{
     border: 1px solid blue;
     background: white;
 }
-.portfolio-team{
-   
-    
-}
-.portfolio-A{
-     display: flex; 
-     justify-content: center;
-     margin-left: 40px;
+
+.portfolio-team {}
+
+.portfolio-A {
+    display: flex;
+    justify-content: center;
+    margin-left: 40px;
 
 }
 
 
-.portfolio-card-1{
+.portfolio-card-1 {
     width: 29%;
     margin-left: 20px;
     transition: 0.3s;
@@ -1597,33 +1630,34 @@ sub{
     overflow: hidden;
     z-index: 1;
     background: rgba(255, 255, 255, 0.75);
-    
+
 }
-.portfolio-card-1 img{
+
+.portfolio-card-1 img {
     width: 100%;
     height: auto;
     transition: 1s;
 }
 
-.portfolio-like{
-    
-}
+.portfolio-like {}
 
-.portfolio-like a i{
+.portfolio-like a i {
     font-size: 24px;
     line-height: 0;
 }
-.portfolio-B{
-    display: flex; 
+
+.portfolio-B {
+    display: flex;
     justify-content: center;
     margin-left: 40px;
 }
 
-.portfolio-card-2{
+.portfolio-card-2 {
     width: 29%;
     margin-left: 20px;
 }
-.portfolio-card-2 img{
+
+.portfolio-card-2 img {
     width: 100%;
     height: auto;
 }
@@ -1634,31 +1668,33 @@ sub{
 
 
 
-.portfolio-C{
-    display: flex; 
+.portfolio-C {
+    display: flex;
     justify-content: center;
     margin-left: 40px;
 }
 
-.portfolio-card-3{
+.portfolio-card-3 {
     width: 29%;
     margin-left: 20px;
 }
-.portfolio-card-3 img{
+
+.portfolio-card-3 img {
     width: 100%;
     height: auto;
 }
-.Testimonials{
+
+.Testimonials {
     padding: 60px 0px;
     overflow: hidden;
 }
-.Testimonials-header{
+
+.Testimonials-header {
     text-align: center;
     padding-bottom: 40px
-
-
 }
-.Testimonials-header h2{
+
+.Testimonials-header h2 {
     font-size: 13px;
     letter-spacing: 1px;
     font-weight: 700;
@@ -1667,7 +1703,8 @@ sub{
     text-transform: uppercase;
 
 }
-.Testimonials-header p{
+
+.Testimonials-header p {
     margin: 10px 0 0 0;
     padding: 0;
     font-size: 38px;
@@ -1676,13 +1713,16 @@ sub{
     color: #012970;
 
 }
-.Testimonials-content{
+
+.Testimonials-content {
     display: flex;
 }
-.Testimonials-banner{
+
+.Testimonials-banner {
     width: 100%;
 }
-.Testimonials-items{
+
+.Testimonials-items {
     box-sizing: content-box;
     padding: 30px;
     margin: 40px 40px;
@@ -1694,7 +1734,8 @@ sub{
     text-align: center;
     transition: 0.3s;
 }
-.profile img{
+
+.profile img {
     width: 90px;
     border-radius: 50%;
     border: 4px solid #fff;
@@ -1702,48 +1743,58 @@ sub{
 
 
 }
-.satars{
+
+.satars {
     margin-bottom: 15px;
 
 }
-.satars i{
+
+.satars i {
     color: #ffc107;
     margin: 0 1px;
 }
-.Testimonials-items P{
+
+.Testimonials-items P {
     font-style: italic;
     margin: 0 auto 15px auto;
 }
-.profile{
-    margin-top: auto!important;
+
+.profile {
+    margin-top: auto !important;
 }
-.profile img{
+
+.profile img {
     width: 90px;
     border-radius: 50%;
     border: 4px solid #fff;
     margin: 0 auto;
 }
-.profile h3{
+
+.profile h3 {
     font-size: 18px;
     font-weight: bold;
     margin: 10px 0 5px 0;
     color: #111;
 }
-.profile h4{
+
+.profile h4 {
     font-size: 14px;
     color: #999;
     margin: 0;
 }
-.team{
+
+.team {
     background: #fff;
-    padding: 60px 0;
+    padding: 50px 0;
 
 }
-.team-header{
+
+.team-header {
     text-align: center;
     padding-bottom: 40px;
 }
-.team-header h2{
+
+.team-header h2 {
     font-size: 13px;
     letter-spacing: 1px;
     font-weight: 700;
@@ -1752,7 +1803,8 @@ sub{
     text-transform: uppercase;
 
 }
-.team-header p{
+
+.team-header p {
     margin: 10px 0 0 0;
     padding: 0;
     font-size: 38px;
@@ -1761,20 +1813,25 @@ sub{
     color: #012970;
 
 }
-.team-banner{
+
+.team-banner {
     display: flex;
-    margin: 80px;
     --bs-gutter-y: 1.5rem;
     --bs-gutter-y: 0;
     flex-wrap: wrap;
     margin-top: calc(-1 * var(--bs-gutter-y));
     margin-right: calc(-.5 * var(--bs-gutter-x));
     margin-left: calc(-.5 * var(--bs-gutter-x));
+    margin: 65px;
+    margin-top: 5px;
 }
-.team-1{
-    width: 25%;
+
+.team-1 {
+    width: 23%;
+    margin: 10px;
 }
-.team-member-1{
+
+.team-member-1 {
     overflow: hidden;
     text-align: center;
     border-radius: 5px;
@@ -1782,17 +1839,19 @@ sub{
     box-shadow: 0px 0 30px rgb(1 41 112 / 8%);
     transition: 0.3s;
 }
-.team-member-1 .member-image{
+
+.team-member-1 .member-image {
     position: relative;
     overflow: hidden;
 }
 
-.team-member-1 .member-image img{
+.team-member-1 .member-image img {
     max-width: 100%;
     height: auto;
     vertical-align: middle;
 }
-.team-member-1 .social-media{
+
+/* .team-member-1 .social-media{
     position: absolute;
     right: -100%;
     top: 30px;
@@ -1801,17 +1860,17 @@ sub{
     transition: 0.5s;
     background: rgba(255, 255, 255, 0.3);
     z-index: 2;
-}
-.team-member-1 .social-media a{
+} */
+/* .team-member-1 .social-media a{
     margin: 0;
     padding: 0;
     font-size: 100%;
     vertical-align: baseline;
     background: transparent;
-}
-.team-member-1 .social-media a i{
+} */
+/* .team-member-1 .social-media a i{
     font-family: 'IcoFont' !important;
-    speak: none;
+    speak-as: none;
     font-style: normal;
     font-weight: normal;
     font-variant: normal;
@@ -1822,26 +1881,28 @@ sub{
     line-height: 1;
     -webkit-font-feature-settings: "liga";
     -webkit-font-smoothing: antialiased;
-}
-.team-member-1 .member-info{
+} */
+.team-member-1 .member-info {
     padding: 10px 15px 20px 15px
-
 }
-.team-member-1 .member-info h4{
+
+.team-member-1 .member-info h4 {
     font-weight: 700;
     margin-bottom: 5px;
     font-size: 20px;
     color: #012970;
 
 }
-.team-member-1 .member-info span{
+
+.team-member-1 .member-info span {
     display: block;
     font-size: 14px;
     font-weight: 400;
     color: #aaaaaa;
 
 }
-.team-member-1 .member-info p{
+
+.team-member-1 .member-info p {
     font-style: italic;
     font-size: 14px;
     padding-top: 15px;
@@ -1849,10 +1910,13 @@ sub{
     color: #5e5e5e;
 
 }
-.team-2{
-    width: 25%;
+
+.team-2 {
+    width: 23%;
+    margin: 10px;
 }
-.team-member-2{
+
+.team-member-2 {
     overflow: hidden;
     text-align: center;
     border-radius: 5px;
@@ -1861,16 +1925,18 @@ sub{
     transition: 0.3s;
 }
 
-.team-member-2 .member-image img{
+.team-member-2 .member-image img {
     max-width: 100%;
     height: auto;
 }
-.team-member-2 .member-image img{
+
+.team-member-2 .member-image img {
     max-width: 100%;
     height: auto;
     vertical-align: middle;
 }
-.team-member-2 .social-media{
+
+/* .team-member-2 .social-media{
     position: absolute;
     right: -100%;
     top: 30px;
@@ -1886,8 +1952,8 @@ sub{
     font-size: 100%;
     vertical-align: baseline;
     background: transparent;
-}
-.team-member-2 .social-media a i{
+} */
+/* .team-member-2 .social-media a i{
     font-family: 'IcoFont' !important;
     speak: none;
     font-style: normal;
@@ -1900,26 +1966,28 @@ sub{
     line-height: 1;
     -webkit-font-feature-settings: "liga";
     -webkit-font-smoothing: antialiased;
-}
-.team-member-2 .member-info{
+} */
+.team-member-2 .member-info {
     padding: 10px 15px 20px 15px
-
 }
-.team-member-2 .member-info h4{
+
+.team-member-2 .member-info h4 {
     font-weight: 700;
     margin-bottom: 5px;
     font-size: 20px;
     color: #012970;
 
 }
-.team-member-2 .member-info span{
+
+.team-member-2 .member-info span {
     display: block;
     font-size: 14px;
     font-weight: 400;
     color: #aaaaaa;
 
 }
-.team-member-2 .member-info p{
+
+.team-member-2 .member-info p {
     font-style: italic;
     font-size: 14px;
     padding-top: 15px;
@@ -1927,10 +1995,13 @@ sub{
     color: #5e5e5e;
 
 }
-.team-3{
-    width: 25%;
+
+.team-3 {
+    width: 23%;
+    margin: 10px;
 }
-.team-member-3{
+
+.team-member-3 {
     overflow: hidden;
     text-align: center;
     border-radius: 5px;
@@ -1939,16 +2010,18 @@ sub{
     transition: 0.3s;
 }
 
-.team-member-3 .member-image img{
+.team-member-3 .member-image img {
     max-width: 100%;
     height: auto;
 }
-.team-member-3 .member-image img{
+
+.team-member-3 .member-image img {
     max-width: 100%;
     height: auto;
     vertical-align: middle;
 }
-.team-member-3 .social-media{
+
+/* .team-member-3 .social-media{
     position: absolute;
     right: -100%;
     top: 30px;
@@ -1964,10 +2037,10 @@ sub{
     font-size: 100%;
     vertical-align: baseline;
     background: transparent;
-}
-.team-member-3 .social-media a i{
+} */
+/* .team-member-3 .social-media a i{
     font-family: 'IcoFont' !important;
-    speak: none;
+    speak-as: none;
     font-style: normal;
     font-weight: normal;
     font-variant: normal;
@@ -1978,26 +2051,28 @@ sub{
     line-height: 1;
     -webkit-font-feature-settings: "liga";
     -webkit-font-smoothing: antialiased;
-}
-.team-member-3 .member-info{
+} */
+.team-member-3 .member-info {
     padding: 10px 15px 20px 15px
-
 }
-.team-member-3 .member-info h4{
+
+.team-member-3 .member-info h4 {
     font-weight: 700;
     margin-bottom: 5px;
     font-size: 20px;
     color: #012970;
 
 }
-.team-member-3 .member-info span{
+
+.team-member-3 .member-info span {
     display: block;
     font-size: 14px;
     font-weight: 400;
     color: #aaaaaa;
 
 }
-.team-member-3 .member-info p{
+
+.team-member-3 .member-info p {
     font-style: italic;
     font-size: 14px;
     padding-top: 15px;
@@ -2005,10 +2080,13 @@ sub{
     color: #5e5e5e;
 
 }
-.team-4{
-    width: 25%;
+
+.team-4 {
+    width: 23%;
+    margin: 10px;
 }
-.team-member-4{
+
+.team-member-4 {
     overflow: hidden;
     text-align: center;
     border-radius: 5px;
@@ -2017,16 +2095,18 @@ sub{
     transition: 0.3s;
 }
 
-.team-member-4 .member-image img{
+.team-member-4 .member-image img {
     max-width: 100%;
     height: auto;
 }
-.team-member-4 .member-image img{
+
+.team-member-4 .member-image img {
     max-width: 100%;
     height: auto;
     vertical-align: middle;
 }
-.team-member-4 .social-media{
+
+/* .team-member-4 .social-media{
     position: absolute;
     right: -100%;
     top: 30px;
@@ -2042,8 +2122,8 @@ sub{
     font-size: 100%;
     vertical-align: baseline;
     background: transparent;
-}
-.team-member-4 .social-media a i{
+} */
+/* .team-member-4 .social-media a i{
     font-family: 'IcoFont' !important;
     speak: none;
     font-style: normal;
@@ -2054,28 +2134,34 @@ sub{
     word-wrap: normal;
     direction: ltr;
     line-height: 1;
-    -webkit-font-feature-settings: "liga";
-    -webkit-font-smoothing: antialiased;
-}
-.team-member-4 .member-info{
-    padding: 10px 15px 20px 15px
+
+} */
+.social-media a {
+    text-decoration: none;
 
 }
-.team-member-4 .member-info h4{
+
+.team-member-4 .member-info {
+    padding: 10px 15px 20px 15px
+}
+
+.team-member-4 .member-info h4 {
     font-weight: 700;
     margin-bottom: 5px;
     font-size: 20px;
     color: #012970;
 
 }
-.team-member-4 .member-info span{
+
+.team-member-4 .member-info span {
     display: block;
     font-size: 14px;
     font-weight: 400;
     color: #aaaaaa;
 
 }
-.team-member-4 .member-info p{
+
+.team-member-4 .member-info p {
     font-style: italic;
     font-size: 14px;
     padding-top: 15px;
@@ -2083,6 +2169,151 @@ sub{
     color: #5e5e5e;
 
 }
+.client {
+    /* padding: 60px 0;
+    overflow: hidden; */
+}
+
+.client-header {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.client-header h2 {
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    margin: 0;
+    color: #4154f1;
+    text-transform: uppercase;
+    font-family: "Nunito", sans-serif;
+}
+
+.client-header p {
+    margin: 10px 0 0 0;
+    padding: 0;
+    font-size: 38px;
+    line-height: 42px;
+    font-weight: 700;
+    color: #012970
+}
+.client-banner{
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+}
+.client-flexbox{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    transition-property: transform;
+    box-sizing: content-box;
+}
+.client-image-1{
+    margin-right: 120px;
+    flex-shrink: 0;
+    width: 16.6%;
+    height: 100%;
+    position: relative;
+    transition-property: transform;
+    
+}
+.client-image-1 img{
+    opacity: 0.5;
+    transition: 0.3s;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+.client-image-2{
+    margin-right: 120px;
+    flex-shrink: 0;
+    width: 16.6%;
+    height: 100%;
+    position: relative;
+    transition-property: transform;
+    
+}
+.client-image-2 img{
+    opacity: 0.5;
+    transition: 0.3s;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+.client-image-3{
+    margin-right: 120px;
+    flex-shrink: 0;
+    width: 16.6%;
+    height: 100%;
+    position: relative;
+    transition-property: transform;
+    
+}
+.client-image-3 img{
+    opacity: 0.5;
+    transition: 0.3s;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+.client-image-4{
+    margin-right: 120px;
+    flex-shrink: 0;
+    width: 16.6%;
+    height: 100%;
+    position: relative;
+    transition-property: transform;
+    
+}
+.client-image-4 img{
+    opacity: 0.5;
+    transition: 0.3s;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+.client-image-5{
+    margin-right: 120px;
+    flex-shrink: 0;
+    width: 16.6%;
+    height: 100%;
+    position: relative;
+    transition-property: transform;
+    
+}
+.client-image-5 img{
+    opacity: 0.5;
+    transition: 0.3s;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+} 
+.client-image-6{
+    margin-right: 120px;
+    flex-shrink: 0;
+    width: 16.6%;
+    height: 100%;
+    position: relative;
+    transition-property: transform;
+    
+}
+.client-image-6 img{
+    opacity: 0.5;
+    transition: 0.3s;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+} 
+
+
+
 
 
 
