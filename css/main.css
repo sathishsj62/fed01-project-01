@@ -2338,8 +2338,10 @@ sub {
     --bs-gutter-x: 1.5rem;
     --bs-gutter-y: 0;
     display: flex;
-    margin: 80px;
-
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
 }
 .blog-flexbox{
     flex: 0 0 auto;
@@ -2351,27 +2353,30 @@ sub {
     height: 100%;
     overflow: hidden;
     padding: 30px;
-    border-radius: 18px;
+    border-radius: 8px;
     position: relative;
     display: flex;
     flex-direction: column;
 }
 .post-image{
     overflow: hidden;
-    margin: -30px -30px 15px -30px;
+    margin: -30px -30px 17px -31px;
     position: relative;
+
 }
 .post-image img{
     max-width: 100%;
+    height: auto;
+    transition: 0.5s;
 }
-.post-content span{
+.post-date{
     font-size: 16px;
     font-weight: 600;
     color: rgba(1, 41, 112, 0.6);
     display: block;
     margin-bottom: 10px;
 }
-.post-content h3{
+.post-titel{
     font-size: 24px;
     color: #012970;
     font-weight: 700;
@@ -2379,25 +2384,50 @@ sub {
     position: relative;
     transition: 0.3s;
 }
-.read a{
+.read{
     display: flex;
+    align-items: center;
     font-weight: 600;
     line-height: 1;
     transition: 0.3s;
     text-decoration: none;
 }
-.read a span{
-    font-size: 16px;
-    font-weight: 600;
-    color:#0000ff;
-    display: block;
-    margin-bottom: 10px;
-} 
-.read a i{
+.read span{
+    box-sizing: border-box;
+}
+.icofont-long-arrow-right{
     line-height: 0;
     margin-left: 4px;
     font-size: 18px;
+    text-decoration: none;
 }
+.contact-header{
+    text-align: center;
+    padding-bottom: 60px;
+}
+.contact-header h2{
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    margin: 0;
+    color: #4154f1;
+    text-transform: uppercase;
+    font-family: "Nunito", sans-serif;
+
+}
+.contact-header p{
+    margin: 10px 0 0 0;
+    padding: 0;
+    font-size: 38px;
+    line-height: 42px;
+    font-weight: 700;
+    color: #012970;
+
+}
+.contact-banner{
+    display: flex;
+}
+
 
 
 
