@@ -2569,20 +2569,21 @@ sub {
     background: #fafbff;
     padding: 30px;
     height: 78%;
-    margin-top: 13px;
+    margin-left: -56px;
+    margin-right: 28px;
 }
 .contact-me{
    
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    margin: -30px;
 
    
 }
 .your-name{
     flex: 0 0 auto;
-    width: 50%;
-    margin-top: 26px;
+    width: 40%;
 
 }
 .your-name input{
@@ -2593,44 +2594,42 @@ sub {
 }
 .your-email{
     flex: 0 0 auto;
-    width: 50%;
-    margin-top: 26px;
+    width: 40%;
+    padding: 0px 0px 0px 302px;
+    margin-top: -83px; 
 }
 .your-email input{
-    padding: 10px 15px;
+    padding: 10px 30px;
     box-shadow: none;
     font-size: 14px;
     border-radius: 0;
+   
 
 }
 .subject{
     flex: 0 0 auto;
     width: 100%;
-    margin-top: 26px;
+
 }
 .subject input{
-    padding: 10px 15px;
     box-shadow: none;
     font-size: 14px;
     border-radius: 0;
-    padding: 12px 311px 8px 2px;
+    padding: 12px 0px 10px 10px;
 }
 .message{
     flex: 0 0 auto;
     width: 100%;
-    margin-top: 26px;
-    padding: 5px 0px 28px 2px
 }
 .message input{
-    padding: 12px 15px;
     box-shadow: none;
     font-size: 14px;
     border-radius: 0;
-    padding: 12px 308px 70px 3px;
+    padding: 10px 0px 60px 10px;
 }
 .text-area{
 
-    margin-left: 160px;
+    margin-left: 240px;
 }
  .text-area [type=submit]{
     background: #4154f1;
@@ -2644,6 +2643,24 @@ sub {
     font-family: inherit;
     font-size: inherit;
     line-height: inherit;
+}
+.form-control{
+    display: block;
+    width: 100%;
+  
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.375rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
 
