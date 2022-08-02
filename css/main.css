@@ -2342,10 +2342,11 @@ sub {
     margin-top: calc(-1 * var(--bs-gutter-y));
     margin-right: calc(-.5 * var(--bs-gutter-x));
     margin-left: calc(-.5 * var(--bs-gutter-x));
+    margin-left: 120px;
 }
 .blog-flexbox{
     flex: 0 0 auto;
-    width: 33.33333333%;
+    width: 30%;
 }
 .post-box{
     box-shadow: 0px 0 30px rgb(1 41 112 / 8%);
@@ -2357,6 +2358,8 @@ sub {
     position: relative;
     display: flex;
     flex-direction: column;
+    margin-right: 15px;
+
 }
 .post-image{
     overflow: hidden;
@@ -2369,6 +2372,13 @@ sub {
     height: auto;
     transition: 0.5s;
 }
+.post-image img:hover{
+    transform: rotate(6deg) scale(1.2);
+}
+ /* .post-content h3.read:hover{
+    color: #717ff5;
+    text-decoration: none;
+} */
 .post-date{
     font-size: 16px;
     font-weight: 600;
@@ -2403,7 +2413,7 @@ sub {
 }
 .contact-header{
     text-align: center;
-    padding-bottom: 60px;
+    padding-bottom: 30px;
 }
 .contact-header h2{
     font-size: 13px;
@@ -2427,7 +2437,214 @@ sub {
 .contact-banner{
     display: flex;
 }
+.contact-details{
+    flex: 0 0 auto;
+    width: 50%;
+}
+.contact-left{
+    margin: 5px;
+    margin-left: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    
 
+}
+.Adderss{
+    flex: 0 0 auto;
+
+}
+.contact-info{
+    color: #444444;
+    background: #fafbff;
+    padding: 30px;
+
+}
+.contact-info i{
+    font-size: 38px;
+    line-height: 0;
+    color: #4154f1;
+}
+.contact-info h3{
+    font-size: 20px;
+    color: #012970;
+    font-weight: 700;
+    margin: 20px 0 10px 0;
+}
+.contact-info p{
+    padding: 0;
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+.call-use{
+    width: 40%;
+    margin: 10px
+    
+
+}
+.call-info{
+    color: #444444;
+    background: #fafbff;
+    padding: 30px;
+
+}
+.call-info i{
+    font-size: 38px;
+    line-height: 0;
+    color: #4154f1;
+}
+.call-info h3{
+    font-size: 20px;
+    color: #012970;
+    font-weight: 700;
+    margin: 20px 0 10px 0;
+}
+.call-info p{
+    padding: 0;
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+.Email-use{
+    flex: 0 0 auto;
+    
+
+}
+.Email-info{
+    color: #444444;
+    background: #fafbff;
+    padding: 30px;
+
+}
+.Email-info i{
+    font-size: 38px;
+    line-height: 0;
+    color: #4154f1;
+}
+.Email-info h3{
+    font-size: 20px;
+    color: #012970;
+    font-weight: 700;
+    margin: 20px 0 10px 0;
+}
+.Email-info p{
+    padding: 0;
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+.open-hours{
+    flex: 0 0 auto;
+    
+
+}
+.open-info{
+    color: #444444;
+    background: #fafbff;
+    padding: 30px;
+
+}
+.open-info i{
+    font-size: 38px;
+    line-height: 0;
+    color: #4154f1;
+}
+.open-info h3{
+    font-size: 20px;
+    color: #012970;
+    font-weight: 700;
+    margin: 20px 0 10px 0;
+}
+.open-info p{
+    padding: 0;
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+.contact-right{
+    padding-right: 56px;
+    margin-left: -46px;
+}
+.form{
+    background: #fafbff;
+    padding: 30px;
+    height: 78%;
+    margin-top: 13px;
+}
+.contact-me{
+   
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+
+   
+}
+.your-name{
+    flex: 0 0 auto;
+    width: 50%;
+    margin-top: 26px;
+
+}
+.your-name input{
+    padding: 10px 15px;
+    box-shadow: none;
+    font-size: 14px;
+    border-radius: 0;
+}
+.your-email{
+    flex: 0 0 auto;
+    width: 50%;
+    margin-top: 26px;
+}
+.your-email input{
+    padding: 10px 15px;
+    box-shadow: none;
+    font-size: 14px;
+    border-radius: 0;
+
+}
+.subject{
+    flex: 0 0 auto;
+    width: 100%;
+    margin-top: 26px;
+}
+.subject input{
+    padding: 10px 15px;
+    box-shadow: none;
+    font-size: 14px;
+    border-radius: 0;
+    padding: 12px 311px 8px 2px;
+}
+.message{
+    flex: 0 0 auto;
+    width: 100%;
+    margin-top: 26px;
+    padding: 5px 0px 28px 2px
+}
+.message input{
+    padding: 12px 15px;
+    box-shadow: none;
+    font-size: 14px;
+    border-radius: 0;
+    padding: 12px 308px 70px 3px;
+}
+.text-area{
+
+    margin-left: 160px;
+}
+ .text-area [type=submit]{
+    background: #4154f1;
+    border: 0;
+    padding: 10px 30px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
 
 
 
