@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/icofont.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 
 <body>
@@ -1156,108 +1157,77 @@
         <br>
 
         <!--CONTACT-->
-        <section class="contact">
-            <section class="container">
-                <section class="contact-header">
+        <section id="Contact" class="contact">
+            <div class="contact-container">
+                <div class="section-title">
                     <h2>CONTACT</h2>
-                    <p>Contact Us</p>
-                </section>
-                <section class="contact-banner">
-                    <section class="contact-details">
-                        <section class="contact-left">
-                            <div class="call-use">
-                                <div class="contact-info">
-                                    <i class="icofont-google-map"></i>
-                                    <h3>Address</h3>
-                                    <p>
-                                        A108 Adam Street, <br>
-                                        New York, NY 535022
-                                    </p>
+                    
+                    <p>Ut possimus qui ut temporibus culpa velit eveniet modi<br> omnis est adipisci expedita at voluptas
+                        atque vitae autem.</p>
+                </div>
+                <div>
+                    <iframe class="q" style="border:0" width="90%" height="300px"
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621">
+                    </iframe>
+                </div>
+                <div class="row6">
+                    <div class="col6">
+                        <div class="i-fo">
+                            <div class="address">
+                                <i class="icofont-location-pin"></i>
+                                <h4>Location:</h4>
+                                <p>A108 Adam Street, New York, NY<br> 535022</p>
+                            </div>
+                            <div class="email">
+                                <i class="icofont-mail"></i>
+                                <h4>Email:</h4>
+                                <p>info@example.com</p>
+                            </div>
+                            <div class="phone">
+                                <i class="icofont-smart-phone"></i>
+                                <h4>Call:</h4>
+                                <p>+1 5589 55488 55s</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col7">
+                        <form action="conduct" method="post" role="form" class="email-form">
+                            <div class="row6">
+                                <div class="col7">
+                                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
+                                        required>
+                                </div>
+                                <div class="col7">
+                                    <input type="email" name="email" class="form-control" id="email"
+                                        placeholder="Your Email" required>
                                 </div>
                             </div>
-                            <div class="call-use">
-                                <div class="call-info">
-                                    <i class="icofont-phone"></i>
-                                    <h3>Call Us</h3>
-                                    <p>
-                                        +1 5589 55488 55 <br>
-                                        +1 6678 254445 41
-                                    </p>
-                                </div>
+                            <div class="col7">
+                                <input type="text" name="subject" class="form-control1" id="subject" placeholder="Subject"
+                                    required>
                             </div>
-                            <div class="call-use">
-                                <div class="Email-info">
-                                    <i class="icofont-email"></i>
-                                    <h3>Email Us</h3>
-                                    <p>
-                                        info@example.com <br>
-                                        contact@example.com
-
-                                    </p>
-                                </div>
+                            <div class="col7">
+                                <textarea class="form-control2" name="message" rows="5" placeholder="Message"
+                                    required></textarea>
                             </div>
-                            <div class="call-use">
-                                <div class="open-info">
-                                    <i class="icofont-wall-clock"></i>
-                                    <h3>Open Hours</h3>
-                                    <p>
-                                        Monday - Friday <br>
-                                        9:00AM - 05:00PM
-                                    </p>
-                                </div>
-                            </div>
-                        </section>
-                    </section>
-                    <section class="contact-right">
-                        <form action="form" class="form">
-                            <div class="contact-me">
-    
-                                <div class="your-name">
-                                    <input type="text" name="nmae" class=form-control placeholder="Your Name">
-                                </div>
-                                <div class="your-email">
-                                    <input type="Email" name="Email" class=form-control placeholder="Your Email">
-
-                                </div>
-                                <div class="subject">
-                                    <input type="text" name="Subject" class=form-control placeholder="Subject">
-                                </div>
-                                <div class="message">
-                                    <input type="text" name="Message" row="6" class=form-control placeholder="Message">
-                                </div>
-                                <div class="text-area">
-                                    <button type="submit">Send Message</button>
-                                </div>
+                            <div class="text-center">
+                                <button type="submit">Send Message</button>
                             </div>
                         </form>
-                    </section>
-                </section>
-
-            </section>
+                    </div>
+                </div>
+            </div>
         </section>
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <!-- <section class="footer"> 
+       <!-- footer -->
+    <section class="footer">
         <section class="container">
             <section class="footer-flexbox">
                 <div class="footer-1">
-                    <a href="#">
-                        <img src="./image/logo.png">
+                    <a href="#" class="logo-flex">
+                        <img src="./image/logo (1).png">
                         <span>FlexStart</span>
                     </a>
                     <br>
@@ -1270,7 +1240,7 @@
                         <a class="icofont-instagram" href="#"></a>
                         <a class="icofont-linkedin" href="#"></a>
                     </div>
-                   
+
                 </div>
                 <div class="footer-2">
                     <h4>USEFUL LINKS</h4>
@@ -1303,7 +1273,7 @@
 
                     </ul>
                 </div>
-                <div class="footer-2">
+                <div class="footer-3">
                     <h4>OUR SERVICES</h4>
                     <ul>
                         <li>
@@ -1334,7 +1304,7 @@
 
                     </ul>
                 </div>
-                <div class="footer-3">
+                <div class="footer-4">
                     <h4>CONTACT US</h4><br>
                     <P>
                         A108 Adam street <br>
@@ -1342,8 +1312,8 @@
                         United States
                         <br> <br>
 
-                       <strong>Phone:</strong>  +1 5589 55488 55 <br>
-                       <strong>Email:</strong>  info@example.com
+                        <strong>Phone:</strong> +1 5589 55488 55 <br>
+                        <strong>Email:</strong> info@example.com
                     </P>
 
                 </div>
@@ -1351,145 +1321,48 @@
             </section>
         </section>
     </section>
-    <br>
-    <br>
-    <section class="footer-bottom">
+    <section class="Copyright">
         <section class="container">
-            <section class="footer-bottom-flexbox">
-                <div class=" Copyright">© Copyright</div>
-                <strong > FlexStart.
-                    <span> All Rights Reserved</span><br>
-                </strong>
-                <div class="Designed">Designed by
+            <section class="copyright-box">
+                <div class=" Copy-right">© Copyright
+                    <strong>
+                        <span>FlexStart</span>
+                    </strong>
+                    .All Rights Reserved
+                </div>
+                <div class="designed">Designed by
                     <a href="#"> BootstrapMade</a>
                 </div>
             </section>
         </section>
-    </section> -->
-        <!-- <br>
-    <br>
-    <br>
-     <section class="footer">
-        <section class="container">
-            <section class="footer-fkexbox">
-                <div class="footer-1">
-                    <h4>what is my screen regulation</h4>
-                    <p> Hii is this sathishkumar from Ambur.i have complete my BE Electrical&Electronic Engineering. </p>
-                    <form action="post">
-                        <input type="email" name="email">
-                        <input type="Submit" value="subscribe">
-                    </form>
-                </div>
-            </section>
-        </section>
-    </section> -->
-        <!-- <br>
-    <br>
-    <br>
-    <br>
-    <section class="footer">
-        <section class="container">
-            <section class="footer-flexbox">
-                <div class="footer-1">
-                    <h3>BizLand.</h3><br>
-                    <p>
-                        A108 Adam Street <br>
-                        New York, NY 535022 <br>
-                        United States <br>
-                    </p>
-                    <br>
-                    <strong>Phone: </strong>+1 5589 55488 55<br>
-                    <strong>Email: </strong>info@example.com
-                </div>
-                <div class="footer-2">
-                    <h3>Useful Links</h3>
-                    <ul>
-                        <li>
-                            <i class="icofont-simple-right">
-                                <a href="#">Home</a>
-                            </i>
-                        </li>
-                        <li>
-                            <i class="icofont-simple-right">
-                                <a href="#">About us</a>
-                            </i>
-                        </li>
-                        <li>
-                            <i class="icofont-simple-right">
-                                <a href="#">Services</a>
-                            </i>
-                        </li>
-                        <li>
-                            <i class="icofont-simple-right">
-                                <a href="#">
-                                    Terms of service</a>
-                            </i>
-                        </li>
-                        <li>
-                            <i class="icofont-simple-right">
-                                <a href="#">
-                                    Privacy policy</a>
-                            </i>
-                        </li>
+    </section>
+   
 
 
-                    </ul>
-                </div>
-                <div class="footer-2">
-                    <h3>Our Services</h3>
-                    <ul>
-                        <li>
-                            <i class="icofont-simple-right">
-                                <a href="#">
-                                    Web Design</a>
-                            </i>
-                        </li>
-                        <li>
-                            <i class="icofont-simple-right">
-                                <a href="#">
-                                    Web Development</a>
-                            </i>
-                        </li>
-                        <li>
-                            <i class="icofont-simple-right">
-                                <a href="#">
-                                    Product Management</a>
-                            </i>
-                        </li>
-                        <li>
-                            <i class="icofont-simple-right">
-                                <a href="#">
-                                    Marketing</a>
-                            </i>
-                        </li>
-                        <li>
-                            <i class="icofont-simple-right">
-                                <a href="#">
-                                    Graphic Design</a>
-                            </i>
-                        </li>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 
-                    </ul>
-                </div>
-
-                <div class="footer-3">
-                    <h3>Our Social Networks</h3>
-                    <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
-                    <div class="link">
-                        <a class="icofont-twitter" href="#"></a>
-                        <a class="icofont-facebook" href="#"></a>
-                        <a class="icofont-instagram" href="#"></a>
-                        <a class="icofont-google-plus" href="#"></a>
-                        <a class="icofont-linkedin" href="#"></a>
-
-                    </div>
 
 
-                </div>
-            </section>
-        </section>
-    </section> -->
+
+
+
+
+
+
+
+
+
+
+       
+
 
 
 
