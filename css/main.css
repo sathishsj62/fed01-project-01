@@ -271,6 +271,15 @@
     padding-bottom: 5px;
 
 }
+.banner-left-box:hover img {
+    transform: scale(1.2);
+}
+.banner-right-box:hover img {
+    transform: scale(1.2);
+}
+.banner-middle-box:hover img {
+    transform: scale(1.2);
+}
 
 .banner-middle-box {
     padding: 30px;
