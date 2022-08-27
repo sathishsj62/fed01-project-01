@@ -1759,15 +1759,15 @@ sub {
     width: 100%;
     height: auto;
 }
-
-.Testimonials {
-    padding: 60px 0px;
-    overflow: hidden;
-}
+/* Testimonials */
 
 .Testimonials-header {
     text-align: center;
-    padding-bottom: 40px
+  
+}
+.Testimonials {
+    
+    margin-top: 50px;
 }
 
 .Testimonials-header h2 {
@@ -1792,7 +1792,9 @@ sub {
 
 .Testimonials-content {
     display: flex;
+    padding: 60px;
 }
+
 
 .Testimonials-banner {
     width: 100%;
@@ -1801,10 +1803,10 @@ sub {
 .Testimonials-items {
     box-sizing: content-box;
     padding: 30px;
-    margin: 40px 40px;
+    margin: 20px;
     box-shadow: 0px 0 20px rgb(1 41 112 / 10%);
     background: #fff;
-    min-height: 285px;
+    min-height: 290px;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -1832,9 +1834,9 @@ sub {
 
 .Testimonials-items P {
     font-style: italic;
+    font-size: 20px;
     margin: 0 auto 15px auto;
 }
-
 .profile {
     margin-top: auto !important;
 }
@@ -2309,8 +2311,74 @@ sub {
     color: #012970;
 
 }
+.blog-items{
+    display: flex;
+    justify-content: center;
+    margin-left: 30px;
 
-.blog-items {
+}
+.post-box{
+    margin-right: 10px;
+    /* width: 30%; */
+    box-shadow: 0px 0 30px rgb(1 41 112 / 8%);
+    transition: 0.3s;
+    height: 100%;
+    overflow: hidden;
+    padding: 30px;
+    border-radius: 8px;
+    position: relative;
+    /* display: flex; */
+    /* flex-direction: column; */
+    
+}
+.post-image{
+    overflow: hidden;
+    margin: -30px -30px 15px -30px;
+    position: relative;
+    
+    
+}
+.post-image img{
+    width: 100%;
+    height: auto;
+    
+}
+.post-date{
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(1, 41, 112, 0.6);
+    display: block;
+    margin-bottom: 10px;
+}
+.post-box h3{
+    font-size: 24px;
+    color: #012970;
+    font-weight: 700;
+    margin-bottom: 18px;
+    position: relative;
+    transition: 0.3s;
+    width: 78%;
+}
+.post-box a{
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    line-height: 1;
+    transition: 0.3s;
+    text-decoration: none;
+}
+.post-box a span{
+    font-weight: 600;
+    line-height: 1;
+
+}
+.post-box a i{
+    line-height: 0;
+    margin-left: 4px;
+    font-size: 18px;
+}
+
+/* .blog-items {
     --bs-gutter-x: 1.5rem;
     --bs-gutter-y: 0;
     display: flex;
@@ -2389,7 +2457,7 @@ sub {
     margin-left: 4px;
     font-size: 18px;
     text-decoration: none;
-}
+} */ */
 
 /* contact */
 .contact {
