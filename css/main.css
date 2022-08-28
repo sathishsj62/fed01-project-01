@@ -2533,10 +2533,9 @@ sub {
 /* <!--new letter----> */
 
 .newsletter {
-    padding: 0 0 30px 0;
     color: #444444;
     font-size: 14px;
-
+    margin-top: 50px;
 }
 
 .newsletter-box {
