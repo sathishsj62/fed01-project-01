@@ -7,8 +7,11 @@
     display: flex;
     justify-content: space-between;
 }
+.header-logo{
+    line-height: 2.3
+}
 
-.header-text h1 a {
+.header-logo  a {
     font-size: 30px;
     font-weight: 700;
     letter-spacing: 1px;
@@ -17,8 +20,14 @@
     font-family: "Nunito", sans-serif;
     margin-left: 40px;
 }
+.header-logo img{
+    max-height: 40px;
+    margin-right: 6px;
+    vertical-align: middle;
+}
 
-.header-text h1 {
+
+.header-logo h1 {
     margin-top: 20px;
 }
 
@@ -353,20 +362,10 @@
 
 }
 
-.banner-left-box p {
+.banner-left-box p,.banner-middle-box p,.banner-right-box p {
     margin-top: 0;
     margin-bottom: 1rem;
-
-}
-
-.banner-middle-box p {
-    margin-top: 0;
-    margin-bottom: 1rem;
-}
-
-.banner-right-box p {
-    margin-top: 0;
-    margin-bottom: 1rem;
+    font-size: 19px;
 }
 
 .headline-page {
@@ -814,7 +813,6 @@
     margin-inline: 10px;
     border-radius: 5px;
     box-shadow: 0px 0 30px rgb(1 41 112 / 8%);
-    height: 100%;
     padding-top: 35px;
     border-bottom: #2db6fa solid 3px;
     background: #fff;
@@ -827,7 +825,6 @@
 }
 .card-2 {
    
-    height: 100%;
     padding-top: 35px;
     border-bottom: solid 3px #f68c09;
     background: #fff;
@@ -842,7 +839,6 @@
 }
 
 .card-3 {
-    height: 100%;
     padding-top: 35px;
     border-bottom: solid 3px #08da4e;
     background: #fff;
@@ -857,12 +853,11 @@
 }
 
 .card-4 {
-    height: 85%;
     padding-top: 35px;
     border-bottom: solid 3px #e9222c;
     background: #fff;
     margin-inline: 10px;
-    margin-top: 57px;
+    margin-top: 30px;
     box-shadow: 0px 0 30px rgb(1 41 112 / 8%);
     border-radius: 5px;
 }
@@ -873,12 +868,11 @@
 }
 .card-5 {
 
-    height: 85%;
     padding-top: 35px;
     border-bottom: solid 3px #b50edf;
     background: #fff;
     margin-inline: 10px;
-    margin-top: 57px;
+    margin-top: 30px;
     box-shadow: 0px 0 30px rgb(1 41 112 / 8%);
     border-radius: 5px;
 }
@@ -889,14 +883,14 @@
 }
 
 .card-6 {
-    height: 85%;
     padding-top: 35px;
     border-bottom: solid 3px #f51f9c;
     background: #fff;
     margin-inline: 10px;
-    margin-top: 57px;
+    margin-top: 30px;
     box-shadow: 0px 0 30px rgb(1 41 112 / 8%);
     border-radius: 5px;
+   
 }
 
 .card-1 .icofont-chat {
@@ -982,8 +976,10 @@
 }
 
 .card-1 p {
+    padding: 10px;
     line-height: 23px;
-    
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
 }
 
 .card-1 span {
@@ -1006,6 +1002,9 @@
 
 .card-2 p {
     line-height: 23px;
+    padding: 10px;
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
     
 }
 
@@ -1028,7 +1027,10 @@
 }
 
 .card-3 p {
+    padding: 10px;
     line-height: 23px;
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
     
 }
 
@@ -1052,8 +1054,10 @@
 }
 
 .card-4 p {
+    padding: 10px;
     line-height: 23px;
-    
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
 }
 
 .card-4 span {
@@ -1075,8 +1079,10 @@
 }
 
 .card-5 p {
+    padding: 10px;
     line-height: 23px;
-   
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
 }
 
 .card-5 span {
@@ -1098,7 +1104,10 @@
 }
 
 .card-6 p {
+    padding: 10px;
     line-height: 23px;
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
 }
 
 
